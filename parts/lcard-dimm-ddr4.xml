@@ -4,12 +4,8 @@
 <targetPart>
   <id>dimm-0</id>
   <attribute>
-    <id>AFFINITY_PATH</id>
-    <default></default>
-  </attribute>
-  <attribute>
     <id>CARD_TYPE</id>
-    <default></default>
+    <default/>
   </attribute>
   <attribute>
     <id>CDM_DOMAIN</id>
@@ -20,57 +16,45 @@
     <default>LOGICAL_CARD</default>
   </attribute>
   <attribute>
-    <id>DECONFIG_GARDABLE</id>
-    <default>1</default>
-  </attribute>
-  <attribute>
     <id>EEPROM_VPD_PRIMARY_INFO</id>
     <default>
       <field>
         <id>i2cMasterPath</id>
-        <value></value>
+        <value/>
       </field>
       <field>
         <id>port</id>
-        <value></value>
+        <value/>
       </field>
       <field>
         <id>devAddr</id>
-        <value></value>
+        <value/>
       </field>
       <field>
         <id>engine</id>
-        <value></value>
+        <value/>
       </field>
       <field>
         <id>byteAddrOffset</id>
-        <value></value>
+        <value/>
       </field>
       <field>
         <id>maxMemorySizeKB</id>
-        <value></value>
+        <value/>
       </field>
       <field>
         <id>chipCount</id>
-        <value></value>
+        <value/>
       </field>
       <field>
         <id>writePageSize</id>
-        <value></value>
+        <value/>
       </field>
       <field>
         <id>writeCycleTime</id>
-        <value></value>
+        <value/>
       </field>
     </default>
-  </attribute>
-  <attribute>
-    <id>FAPI_NAME</id>
-    <default>unknown</default>
-  </attribute>
-  <attribute>
-    <id>FAPI_POS</id>
-    <default>0xFFFFFFFF</default>
   </attribute>
   <attribute>
     <id>FRU_ID</id>
@@ -78,64 +62,27 @@
   </attribute>
   <attribute>
     <id>FRU_NAME</id>
-    <default></default>
-  </attribute>
-  <attribute>
-    <id>HUID</id>
-    <default></default>
-  </attribute>
-  <attribute>
-    <id>HWAS_STATE</id>
-    <default>
-      <field>
-        <id>deconfiguredByEid</id>
-        <value></value>
-      </field>
-      <field>
-        <id>poweredOn</id>
-        <value></value>
-      </field>
-      <field>
-        <id>present</id>
-        <value></value>
-      </field>
-      <field>
-        <id>functional</id>
-        <value></value>
-      </field>
-      <field>
-        <id>dumpfunctional</id>
-        <value></value>
-      </field>
-      <field>
-        <id>specdeconfig</id>
-        <value></value>
-      </field>
-    </default>
+    <default/>
   </attribute>
   <attribute>
     <id>HWAS_STATE_CHANGED_FLAG</id>
     <default>0x0</default>
   </attribute>
   <attribute>
-    <id>HWAS_STATE_CHANGED_SUBSCRIPTION_MASK</id>
-    <default>0x00000003</default>
-  </attribute>
-  <attribute>
     <id>IPMI_INSTANCE</id>
-    <default></default>
+    <default/>
   </attribute>
   <attribute>
     <id>IPMI_SENSORS</id>
-    <default></default>
+    <default/>
   </attribute>
   <attribute>
     <id>LOCATION_CODE</id>
-    <default></default>
+    <default/>
   </attribute>
   <attribute>
     <id>LOCATION_CODE_TYPE</id>
-    <default></default>
+    <default/>
   </attribute>
   <attribute>
     <id>MBA_DIMM</id>
@@ -154,20 +101,12 @@
     <default>NA</default>
   </attribute>
   <attribute>
-    <id>MSS_EFF_VPD_VERSION</id>
-    <default>0</default>
-  </attribute>
-  <attribute>
-    <id>ORDINAL_ID</id>
-    <default>0xFFFFFFFF</default>
-  </attribute>
-  <attribute>
     <id>PART_NUMBER</id>
-    <default></default>
+    <default/>
   </attribute>
   <attribute>
     <id>PHYS_PATH</id>
-    <default></default>
+    <default/>
   </attribute>
   <attribute>
     <id>POSITION</id>
@@ -178,25 +117,21 @@
     <default>
       <field>
         <id>supportsFsiScom</id>
-        <value></value>
+        <value/>
       </field>
       <field>
         <id>supportsXscom</id>
-        <value></value>
+        <value/>
       </field>
       <field>
         <id>supportsInbandScom</id>
-        <value></value>
+        <value/>
       </field>
       <field>
         <id>reserved</id>
-        <value></value>
+        <value/>
       </field>
     </default>
-  </attribute>
-  <attribute>
-    <id>REL_POS</id>
-    <default>0xFF</default>
   </attribute>
   <attribute>
     <id>RESOURCE_IS_CRITICAL</id>
@@ -204,60 +139,15 @@
   </attribute>
   <attribute>
     <id>RU_TYPE</id>
-    <default></default>
-  </attribute>
-  <attribute>
-    <id>SERIAL_NUMBER</id>
-    <default></default>
-  </attribute>
-  <attribute>
-    <id>SLCA_INDEX</id>
-    <default></default>
-  </attribute>
-  <attribute>
-    <id>SLCA_RID</id>
-    <default></default>
-  </attribute>
-  <attribute>
-    <id>SPD_OVERRIDE</id>
-    <default>0</default>
-  </attribute>
-  <attribute>
-    <id>SPD_OVERRIDE_ENABLE</id>
-    <default>0</default>
+    <default/>
   </attribute>
   <attribute>
     <id>STANDBY_PLUGGABLE</id>
-    <default></default>
+    <default/>
   </attribute>
   <attribute>
     <id>TYPE</id>
     <default>DIMM</default>
-  </attribute>
-  <attribute>
-    <id>VPD_REC_NUM</id>
-    <default>0xFFFF</default>
-  </attribute>
-  <attribute>
-    <id>VPD_SWITCHES</id>
-    <default>
-      <field>
-        <id>pnorCacheValid</id>
-        <value></value>
-      </field>
-      <field>
-        <id>pnorCacheValidRT</id>
-        <value></value>
-      </field>
-      <field>
-        <id>disableWriteToPnorRT</id>
-        <value></value>
-      </field>
-      <field>
-        <id>reserved</id>
-        <value></value>
-      </field>
-    </default>
   </attribute>
   <child_id>ddr4</child_id>
   <child_id>spd</child_id>
@@ -274,10 +164,6 @@
 <targetPart>
   <id>ddr4</id>
   <attribute>
-    <id>AFFINITY_PATH</id>
-    <default></default>
-  </attribute>
-  <attribute>
     <id>BUS_TYPE</id> <default>DDR4</default>
   </attribute>
   <attribute>
@@ -293,60 +179,11 @@
     <default>UNIT</default>
   </attribute>
   <attribute>
-    <id>DECONFIG_GARDABLE</id>
-    <default>0</default>
-  </attribute>
-  <attribute>
     <id>DIRECTION</id>
     <default>IN</default>
   </attribute>
   <attribute>
-    <id>FAPI_NAME</id>
-    <default>unknown</default>
-  </attribute>
-  <attribute>
-    <id>FAPI_POS</id>
-    <default>0xFFFFFFFF</default>
-  </attribute>
-  <attribute>
-    <id>HUID</id>
-    <default></default>
-  </attribute>
-  <attribute>
-    <id>HWAS_STATE</id>
-    <default>
-      <field>
-        <id>deconfiguredByEid</id>
-        <value></value>
-      </field>
-      <field>
-        <id>poweredOn</id>
-        <value></value>
-      </field>
-      <field>
-        <id>present</id>
-        <value></value>
-      </field>
-      <field>
-        <id>functional</id>
-        <value></value>
-      </field>
-      <field>
-        <id>dumpfunctional</id>
-        <value></value>
-      </field>
-      <field>
-        <id>specdeconfig</id>
-        <value></value>
-      </field>
-    </default>
-  </attribute>
-  <attribute>
     <id>HWAS_STATE_CHANGED_FLAG</id>
-    <default>0x0</default>
-  </attribute>
-  <attribute>
-    <id>HWAS_STATE_CHANGED_SUBSCRIPTION_MASK</id>
     <default>0x0</default>
   </attribute>
   <attribute>
@@ -358,20 +195,12 @@
     <default>JEDEC</default>
   </attribute>
   <attribute>
-    <id>MRU_ID</id>
-    <default>0x00</default>
-  </attribute>
-  <attribute>
     <id>MRW_TYPE</id>
     <default>NA</default>
   </attribute>
   <attribute>
-    <id>ORDINAL_ID</id>
-    <default>0xFFFFFFFF</default>
-  </attribute>
-  <attribute>
     <id>PHYS_PATH</id>
-    <default></default>
+    <default/>
   </attribute>
   <attribute>
     <id>PRIMARY_CAPABILITIES</id>
@@ -393,10 +222,6 @@
         <value>0</value>
       </field>
     </default>
-  </attribute>
-  <attribute>
-    <id>REL_POS</id>
-    <default>0xFF</default>
   </attribute>
   <attribute>
     <id>RESOURCE_IS_CRITICAL</id>
@@ -414,108 +239,27 @@
 <targetPart>
   <id>spd</id>
   <attribute>
-    <id>AFFINITY_PATH</id>
-    <default></default>
-  </attribute>
-  <attribute>
-    <id>ALTFSI_MASTER_CHIP</id>
-    <default>physical:sys-0</default>
-  </attribute>
-  <attribute>
-    <id>ALTFSI_MASTER_PORT</id>
-    <default>0xFF</default>
-  </attribute>
-  <attribute>
     <id>BYTE_ADDRESS_OFFSET</id>
     <default>0x01</default>
-  </attribute>
-  <attribute>
-    <id>CHIP_ID</id>
-    <default>0</default>
   </attribute>
   <attribute>
     <id>CLASS</id>
     <default>CHIP</default>
   </attribute>
   <attribute>
-    <id>DECONFIG_GARDABLE</id>
-    <default>0</default>
-  </attribute>
-  <attribute>
-    <id>EC</id>
-    <default>0</default>
-  </attribute>
-  <attribute>
-    <id>FAPI_NAME</id>
-    <default>unknown</default>
-  </attribute>
-  <attribute>
-    <id>FAPI_POS</id>
-    <default>0xFFFFFFFF</default>
-  </attribute>
-  <attribute>
     <id>FRU_ID</id>
     <default>0</default>
-  </attribute>
-  <attribute>
-    <id>FSI_MASTER_CHIP</id>
-    <default>physical:sys-0</default>
-  </attribute>
-  <attribute>
-    <id>FSI_MASTER_PORT</id>
-    <default>0xFF</default>
-  </attribute>
-  <attribute>
-    <id>FSI_MASTER_TYPE</id>
-    <default>NO_MASTER</default>
   </attribute>
   <attribute>
     <id>FSI_OPTION_FLAGS</id>
     <default>
       <field>
         <id>flipPort</id>
-        <value></value>
+        <value/>
       </field>
       <field>
         <id>reserved</id>
-        <value></value>
-      </field>
-    </default>
-  </attribute>
-  <attribute>
-    <id>FSI_SLAVE_CASCADE</id>
-    <default>0</default>
-  </attribute>
-  <attribute>
-    <id>HUID</id>
-    <default></default>
-  </attribute>
-  <attribute>
-    <id>HWAS_STATE</id>
-    <default>
-      <field>
-        <id>deconfiguredByEid</id>
-        <value></value>
-      </field>
-      <field>
-        <id>poweredOn</id>
-        <value></value>
-      </field>
-      <field>
-        <id>present</id>
-        <value></value>
-      </field>
-      <field>
-        <id>functional</id>
-        <value></value>
-      </field>
-      <field>
-        <id>dumpfunctional</id>
-        <value></value>
-      </field>
-      <field>
-        <id>specdeconfig</id>
-        <value></value>
+        <value/>
       </field>
     </default>
   </attribute>
@@ -524,16 +268,12 @@
     <default>0x0</default>
   </attribute>
   <attribute>
-    <id>HWAS_STATE_CHANGED_SUBSCRIPTION_MASK</id>
-    <default>0x0</default>
-  </attribute>
-  <attribute>
     <id>I2C_ADDRESS</id>
-    <default></default>
+    <default/>
   </attribute>
   <attribute>
     <id>I2C_SPEED</id>
-    <default></default>
+    <default/>
   </attribute>
   <attribute>
     <id>IPMI_INSTANCE</id>
@@ -545,23 +285,15 @@
   </attribute>
   <attribute>
     <id>MODEL</id>
-    <default></default>
-  </attribute>
-  <attribute>
-    <id>MRU_ID</id>
-    <default>0x00</default>
+    <default/>
   </attribute>
   <attribute>
     <id>MRW_TYPE</id>
     <default>SPD</default>
   </attribute>
   <attribute>
-    <id>ORDINAL_ID</id>
-    <default>0xFFFFFFFF</default>
-  </attribute>
-  <attribute>
     <id>PHYS_PATH</id>
-    <default></default>
+    <default/>
   </attribute>
   <attribute>
     <id>POSITION</id>
@@ -572,19 +304,19 @@
     <default>
       <field>
         <id>supportsFsiScom</id>
-        <value></value>
+        <value/>
       </field>
       <field>
         <id>supportsXscom</id>
-        <value></value>
+        <value/>
       </field>
       <field>
         <id>supportsInbandScom</id>
-        <value></value>
+        <value/>
       </field>
       <field>
         <id>reserved</id>
-        <value></value>
+        <value/>
       </field>
     </default>
   </attribute>
@@ -594,7 +326,7 @@
   </attribute>
   <attribute>
     <id>RU_TYPE</id>
-    <default></default>
+    <default/>
   </attribute>
   <attribute>
     <id>TYPE</id>
@@ -621,10 +353,6 @@
 <targetPart>
   <id>i2c-slave</id>
   <attribute>
-    <id>AFFINITY_PATH</id>
-    <default></default>
-  </attribute>
-  <attribute>
     <id>BUS_TYPE</id>
     <default>I2C</default>
   </attribute>
@@ -641,65 +369,16 @@
     <default>UNIT</default>
   </attribute>
   <attribute>
-    <id>DECONFIG_GARDABLE</id>
-    <default>0</default>
-  </attribute>
-  <attribute>
     <id>DIRECTION</id>
     <default>IN</default>
-  </attribute>
-  <attribute>
-    <id>FAPI_NAME</id>
-    <default>unknown</default>
-  </attribute>
-  <attribute>
-    <id>FAPI_POS</id>
-    <default>0xFFFFFFFF</default>
-  </attribute>
-  <attribute>
-    <id>HUID</id>
-    <default></default>
-  </attribute>
-  <attribute>
-    <id>HWAS_STATE</id>
-    <default>
-      <field>
-        <id>deconfiguredByEid</id>
-        <value></value>
-      </field>
-      <field>
-        <id>poweredOn</id>
-        <value></value>
-      </field>
-      <field>
-        <id>present</id>
-        <value></value>
-      </field>
-      <field>
-        <id>functional</id>
-        <value></value>
-      </field>
-      <field>
-        <id>dumpfunctional</id>
-        <value></value>
-      </field>
-      <field>
-        <id>specdeconfig</id>
-        <value></value>
-      </field>
-    </default>
   </attribute>
   <attribute>
     <id>HWAS_STATE_CHANGED_FLAG</id>
     <default>0x0</default>
   </attribute>
   <attribute>
-    <id>HWAS_STATE_CHANGED_SUBSCRIPTION_MASK</id>
-    <default>0x0</default>
-  </attribute>
-  <attribute>
     <id>I2C_ADDRESS</id>
-    <default></default>
+    <default/>
   </attribute>
   <attribute>
     <id>IPMI_INSTANCE</id>
@@ -707,23 +386,15 @@
   </attribute>
   <attribute>
     <id>MODEL</id>
-    <default></default>
-  </attribute>
-  <attribute>
-    <id>MRU_ID</id>
-    <default>0x00</default>
+    <default/>
   </attribute>
   <attribute>
     <id>MRW_TYPE</id>
     <default>NA</default>
   </attribute>
   <attribute>
-    <id>ORDINAL_ID</id>
-    <default>0xFFFFFFFF</default>
-  </attribute>
-  <attribute>
     <id>PHYS_PATH</id>
-    <default></default>
+    <default/>
   </attribute>
   <attribute>
     <id>PRIMARY_CAPABILITIES</id>
@@ -745,10 +416,6 @@
         <value>0</value>
       </field>
     </default>
-  </attribute>
-  <attribute>
-    <id>REL_POS</id>
-    <default>0xFF</default>
   </attribute>
   <attribute>
     <id>RESOURCE_IS_CRITICAL</id>
@@ -770,114 +437,29 @@
 <targetPart>
   <id>dimm-thermal-sensor</id>
   <attribute>
-    <id>AFFINITY_PATH</id>
-    <default></default>
-  </attribute>
-  <attribute>
-    <id>ALTFSI_MASTER_CHIP</id>
-    <default></default>
-  </attribute>
-  <attribute>
-    <id>ALTFSI_MASTER_PORT</id>
-    <default></default>
-  </attribute>
-  <attribute>
-    <id>CHIP_ID</id>
-    <default></default>
-  </attribute>
-  <attribute>
     <id>CLASS</id>
     <default>CHIP</default>
   </attribute>
   <attribute>
-    <id>DECONFIG_GARDABLE</id>
-    <default>0</default>
-  </attribute>
-  <attribute>
-    <id>EC</id>
-    <default></default>
-  </attribute>
-  <attribute>
-    <id>FAPI_NAME</id>
-    <default></default>
-  </attribute>
-  <attribute>
-    <id>FAPI_POS</id>
-    <default></default>
-  </attribute>
-  <attribute>
     <id>FRU_ID</id>
-    <default></default>
-  </attribute>
-  <attribute>
-    <id>FSI_MASTER_CHIP</id>
-    <default></default>
-  </attribute>
-  <attribute>
-    <id>FSI_MASTER_PORT</id>
-    <default></default>
-  </attribute>
-  <attribute>
-    <id>FSI_MASTER_TYPE</id>
-    <default>NO_MASTER</default>
+    <default/>
   </attribute>
   <attribute>
     <id>FSI_OPTION_FLAGS</id>
     <default>
       <field>
         <id>flipPort</id>
-        <value></value>
+        <value/>
       </field>
       <field>
         <id>reserved</id>
-        <value></value>
-      </field>
-    </default>
-  </attribute>
-  <attribute>
-    <id>FSI_SLAVE_CASCADE</id>
-    <default></default>
-  </attribute>
-  <attribute>
-    <id>HUID</id>
-    <default></default>
-  </attribute>
-  <attribute>
-    <id>HWAS_STATE</id>
-    <default>
-      <field>
-        <id>deconfiguredByEid</id>
-        <value></value>
-      </field>
-      <field>
-        <id>poweredOn</id>
-        <value></value>
-      </field>
-      <field>
-        <id>present</id>
-        <value></value>
-      </field>
-      <field>
-        <id>functional</id>
-        <value></value>
-      </field>
-      <field>
-        <id>dumpfunctional</id>
-        <value></value>
-      </field>
-      <field>
-        <id>specdeconfig</id>
-        <value></value>
+        <value/>
       </field>
     </default>
   </attribute>
   <attribute>
     <id>HWAS_STATE_CHANGED_FLAG</id>
-    <default></default>
-  </attribute>
-  <attribute>
-    <id>HWAS_STATE_CHANGED_SUBSCRIPTION_MASK</id>
-    <default></default>
+    <default/>
   </attribute>
   <attribute>
     <id>IPMI_INSTANCE</id>
@@ -885,46 +467,38 @@
   </attribute>
   <attribute>
     <id>MODEL</id>
-    <default></default>
-  </attribute>
-  <attribute>
-    <id>MRU_ID</id>
-    <default></default>
+    <default/>
   </attribute>
   <attribute>
     <id>MRW_TYPE</id>
     <default>NA</default>
   </attribute>
   <attribute>
-    <id>ORDINAL_ID</id>
-    <default></default>
-  </attribute>
-  <attribute>
     <id>PHYS_PATH</id>
-    <default></default>
+    <default/>
   </attribute>
   <attribute>
     <id>POSITION</id>
-    <default></default>
+    <default/>
   </attribute>
   <attribute>
     <id>PRIMARY_CAPABILITIES</id>
     <default>
       <field>
         <id>supportsFsiScom</id>
-        <value></value>
+        <value/>
       </field>
       <field>
         <id>supportsXscom</id>
-        <value></value>
+        <value/>
       </field>
       <field>
         <id>supportsInbandScom</id>
-        <value></value>
+        <value/>
       </field>
       <field>
         <id>reserved</id>
-        <value></value>
+        <value/>
       </field>
     </default>
   </attribute>
@@ -934,11 +508,11 @@
   </attribute>
   <attribute>
     <id>RU_TYPE</id>
-    <default></default>
+    <default/>
   </attribute>
   <attribute>
     <id>TYPE</id>
-    <default></default>
+    <default/>
   </attribute>
   <child_id>dimm-thermal-sensor.i2c</child_id>
   <instance_name>dimm-thermal-sensor</instance_name>
@@ -949,16 +523,12 @@
 <targetPart>
   <id>dimm-thermal-sensor.i2c</id>
   <attribute>
-    <id>AFFINITY_PATH</id>
-    <default></default>
-  </attribute>
-  <attribute>
     <id>BUS_TYPE</id>
     <default>I2C</default>
   </attribute>
   <attribute>
     <id>CHIPLET_ID</id>
-    <default></default>
+    <default/>
   </attribute>
   <attribute>
     <id>CHIP_UNIT</id>
@@ -969,65 +539,16 @@
     <default>UNIT</default>
   </attribute>
   <attribute>
-    <id>DECONFIG_GARDABLE</id>
-    <default>0</default>
-  </attribute>
-  <attribute>
     <id>DIRECTION</id>
     <default>IN</default>
   </attribute>
   <attribute>
-    <id>FAPI_NAME</id>
-    <default></default>
-  </attribute>
-  <attribute>
-    <id>FAPI_POS</id>
-    <default></default>
-  </attribute>
-  <attribute>
-    <id>HUID</id>
-    <default></default>
-  </attribute>
-  <attribute>
-    <id>HWAS_STATE</id>
-    <default>
-      <field>
-        <id>deconfiguredByEid</id>
-        <value></value>
-      </field>
-      <field>
-        <id>poweredOn</id>
-        <value></value>
-      </field>
-      <field>
-        <id>present</id>
-        <value></value>
-      </field>
-      <field>
-        <id>functional</id>
-        <value></value>
-      </field>
-      <field>
-        <id>dumpfunctional</id>
-        <value></value>
-      </field>
-      <field>
-        <id>specdeconfig</id>
-        <value></value>
-      </field>
-    </default>
-  </attribute>
-  <attribute>
     <id>HWAS_STATE_CHANGED_FLAG</id>
-    <default></default>
-  </attribute>
-  <attribute>
-    <id>HWAS_STATE_CHANGED_SUBSCRIPTION_MASK</id>
-    <default></default>
+    <default/>
   </attribute>
   <attribute>
     <id>I2C_ADDRESS</id>
-    <default></default>
+    <default/>
   </attribute>
   <attribute>
     <id>IPMI_INSTANCE</id>
@@ -1035,23 +556,15 @@
   </attribute>
   <attribute>
     <id>MODEL</id>
-    <default></default>
-  </attribute>
-  <attribute>
-    <id>MRU_ID</id>
-    <default></default>
+    <default/>
   </attribute>
   <attribute>
     <id>MRW_TYPE</id>
     <default>NA</default>
   </attribute>
   <attribute>
-    <id>ORDINAL_ID</id>
-    <default></default>
-  </attribute>
-  <attribute>
     <id>PHYS_PATH</id>
-    <default></default>
+    <default/>
   </attribute>
   <attribute>
     <id>PRIMARY_CAPABILITIES</id>
@@ -1073,10 +586,6 @@
         <value>0</value>
       </field>
     </default>
-  </attribute>
-  <attribute>
-    <id>REL_POS</id>
-    <default></default>
   </attribute>
   <attribute>
     <id>RESOURCE_IS_CRITICAL</id>

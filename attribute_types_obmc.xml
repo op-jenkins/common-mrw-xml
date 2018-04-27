@@ -3,7 +3,7 @@
 		<id>MANUFACTURER</id>
         <description>The manufacturer</description>
 		<simpleType>
-			<string></string>
+			<string/>
 		</simpleType>
 		<readable/>
 	</attribute>
@@ -13,7 +13,7 @@
         <description>The 'compatible' field for the part in the BMC device tree</description>
 		<simpleType>
 			<string>
-                <default></default>
+                <default/>
             </string>
 		</simpleType>
 		<readable/>
@@ -141,7 +141,7 @@
         <description>The base register address of a function in hex.</description>
 		<simpleType>
 			<uint32_t>
-                <default></default>
+                <default/>
             </uint32_t>
 		</simpleType>
 		<readable/>
@@ -153,10 +153,34 @@
                      registers pertaining to this unit start at.</description>
 		<simpleType>
 			<uint32_t>
-                <default></default>
+                <default/>
             </uint32_t>
 		</simpleType>
 		<readable/>
 	</attribute>
+
+    <enumerationType>
+        <id>LED_PRIORITY</id>
+        <enumerator>
+            <name>BLINK</name>
+            <value>0</value>
+        </enumerator>
+        <enumerator>
+            <name>ON</name>
+            <value>1</value>
+        </enumerator>
+    </enumerationType>
+
+    <attribute>
+        <id>LED_PRIORITY</id>
+        <description>If the LED is asserted with more than one action at the
+                     same time, this attribute defines which action takes priority.
+        </description>
+        <simpleType>
+            <enumeration>
+                <id>LED_PRIORITY</id>
+            </enumeration>
+        </simpleType>
+    </attribute>
 
 </attributes>

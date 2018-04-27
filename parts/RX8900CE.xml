@@ -12,20 +12,12 @@
 	<parent_type>card-daughtercard</parent_type>
 	<child_id>RX8900CE.i2c</child_id>
 	<attribute>
-		<id>CHIP_ID</id>
-		<default></default>
-	</attribute>
-	<attribute>
 		<id>CLASS</id>
 		<default>CHIP</default>
 	</attribute>
 	<attribute>
 		<id>MODEL</id>
-		<default></default>
-	</attribute>
-	<attribute>
-		<id>MRU_ID</id>
-		<default>0</default>
+		<default/>
 	</attribute>
 	<attribute>
 		<id>MRW_TYPE</id>
@@ -33,7 +25,7 @@
 	</attribute>
 	<attribute>
 		<id>POSITION</id>
-		<default></default>
+		<default/>
 	</attribute>
 	<attribute>
 		<id>RESOURCE_IS_CRITICAL</id>
@@ -41,7 +33,7 @@
 	</attribute>
 	<attribute>
 		<id>RU_TYPE</id>
-		<default></default>
+		<default/>
 	</attribute>
 	<attribute>
 		<id>TYPE</id>
@@ -81,7 +73,7 @@
 	</attribute>
 	<attribute>
 		<id>MODEL</id>
-		<default></default>
+		<default/>
 	</attribute>
 	<attribute>
 		<id>MRW_TYPE</id>

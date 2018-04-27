@@ -12,20 +12,12 @@
 	<parent_type>card-daughtercard</parent_type>
 	<child_id>SEEPROM.i2c</child_id>
 	<attribute>
-		<id>CHIP_ID</id>
-		<default></default>
-	</attribute>
-	<attribute>
 		<id>CLASS</id>
 		<default>CHIP</default>
 	</attribute>
 	<attribute>
 		<id>MODEL</id>
-		<default></default>
-	</attribute>
-	<attribute>
-		<id>MRU_ID</id>
-		<default>0</default>
+		<default/>
 	</attribute>
 	<attribute>
 		<id>MRW_TYPE</id>
@@ -33,7 +25,7 @@
 	</attribute>
 	<attribute>
 		<id>POSITION</id>
-		<default></default>
+		<default/>
 	</attribute>
 	<attribute>
 		<id>RESOURCE_IS_CRITICAL</id>
@@ -45,11 +37,11 @@
 	</attribute>
 	<attribute>
 		<id>BMC_DT_COMPATIBLE</id>
-		<default></default>
+		<default/>
 	</attribute>
     <attribute>
       <id>MEMORY_SIZE_IN_KB</id>
-      <default></default>
+      <default/>
     </attribute>
     <attribute>
       <id>WRITE_PAGE_SIZE</id>
@@ -85,11 +77,11 @@
 	</attribute>
 	<attribute>
 		<id>I2C_ADDRESS</id>
-		<default></default>
+		<default/>
 	</attribute>
 	<attribute>
 		<id>MODEL</id>
-		<default></default>
+		<default/>
 	</attribute>
 	<attribute>
 		<id>MRW_TYPE</id>

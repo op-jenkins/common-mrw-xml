@@ -2,6 +2,10 @@
   <targetPart>
     <id>led-led-generic</id>
     <attribute>
+      <id>CLASS</id>
+      <default>LED</default>
+    </attribute>
+    <attribute>
       <id>LED_COLOR</id>
       <default>GREEN</default>
     </attribute>
@@ -19,27 +23,27 @@
     </attribute>
     <attribute>
         <id>BLINK_ROLLUP</id>
-        <default></default>
+        <default/>
     </attribute>
     <attribute>
         <id>VIEW_REAR</id>
-        <default></default>
+        <default/>
     </attribute>
     <attribute>
         <id>VIEW_FRONT</id>
-        <default></default>
+        <default/>
     </attribute>
     <attribute>
         <id>VIEW_INTERNAL</id>
-        <default></default>
+        <default/>
     </attribute>
     <attribute>
         <id>FUNCTION</id>
-        <default></default>
+        <default/>
     </attribute>
     <attribute>
         <id>BLINK_RATE</id>
-        <default></default>
+        <default/>
     </attribute>
     <attribute>
         <id>ON_STATE</id>
@@ -65,6 +69,10 @@
         NA,0,50,
         NA,0,50
         </default>
+    </attribute>
+    <attribute>
+        <id>LED_PRIORITY</id>
+        <default>BLINK</default>
     </attribute>
     <child_id>led_enable</child_id>
     <child_id>generic-logic-assoc</child_id>

@@ -5,7 +5,7 @@
     <instance_name>ps_redundancy_state_sensor</instance_name>
     <is_root>false</is_root>
     <parent>unit</parent>
-    <position>-1</position> 	
+    <position>-1</position>
  	<attribute>
  		<id>IPMI_SENSOR_NAME_SUFFIX</id>
  		<default>Ps_Redundancy</default>
@@ -39,7 +39,7 @@
     </attribute>
     <attribute>
       <id>IPMI_SENSOR_ID</id>
-      <default></default>
+      <default/>
     </attribute>
     <attribute>
       <id>IPMI_SENSOR_NAME_SUFFIX</id>
@@ -47,7 +47,7 @@
     </attribute>
     <attribute>
       <id>IPMI_SENSOR_OFFSETS</id>
-      <default></default>
+      <default/>
     </attribute>
     <attribute>
       <id>IPMI_SENSOR_READING_TYPE</id>
@@ -83,7 +83,7 @@
     </attribute>
     <attribute>
       <id>IPMI_SENSOR_ID</id>
-      <default></default>
+      <default/>
     </attribute>
     <attribute>
       <id>IPMI_SENSOR_NAME_SUFFIX</id>
@@ -91,7 +91,7 @@
     </attribute>
     <attribute>
       <id>IPMI_SENSOR_OFFSETS</id>
-      <default></default>
+      <default/>
     </attribute>
     <attribute>
       <id>IPMI_SENSOR_READING_TYPE</id>
@@ -127,7 +127,7 @@
     </attribute>
     <attribute>
       <id>IPMI_SENSOR_ID</id>
-      <default></default>
+      <default/>
     </attribute>
     <attribute>
       <id>IPMI_SENSOR_NAME_SUFFIX</id>
@@ -171,7 +171,7 @@
     </attribute>
     <attribute>
       <id>IPMI_SENSOR_ID</id>
-      <default></default>
+      <default/>
     </attribute>
     <attribute>
       <id>IPMI_SENSOR_NAME_SUFFIX</id>
@@ -179,7 +179,7 @@
     </attribute>
     <attribute>
       <id>IPMI_SENSOR_OFFSETS</id>
-      <default></default>
+      <default/>
     </attribute>
     <attribute>
       <id>IPMI_SENSOR_READING_TYPE</id>
@@ -215,7 +215,7 @@
     </attribute>
     <attribute>
       <id>IPMI_SENSOR_ID</id>
-      <default></default>
+      <default/>
     </attribute>
     <attribute>
       <id>IPMI_SENSOR_NAME_SUFFIX</id>
@@ -223,7 +223,7 @@
     </attribute>
     <attribute>
       <id>IPMI_SENSOR_OFFSETS</id>
-      <default></default>
+      <default/>
     </attribute>
     <attribute>
       <id>IPMI_SENSOR_READING_TYPE</id>
@@ -259,7 +259,7 @@
     </attribute>
     <attribute>
       <id>IPMI_SENSOR_ID</id>
-      <default></default>
+      <default/>
     </attribute>
     <attribute>
       <id>IPMI_SENSOR_NAME_SUFFIX</id>
@@ -303,7 +303,7 @@
     </attribute>
     <attribute>
       <id>IPMI_SENSOR_ID</id>
-      <default></default>
+      <default/>
     </attribute>
     <attribute>
       <id>IPMI_SENSOR_NAME_SUFFIX</id>
@@ -311,7 +311,7 @@
     </attribute>
     <attribute>
       <id>IPMI_SENSOR_OFFSETS</id>
-      <default></default>
+      <default/>
     </attribute>
     <attribute>
       <id>IPMI_SENSOR_READING_TYPE</id>
@@ -347,7 +347,7 @@
     </attribute>
     <attribute>
       <id>IPMI_SENSOR_ID</id>
-      <default></default>
+      <default/>
     </attribute>
     <attribute>
       <id>IPMI_SENSOR_NAME_SUFFIX</id>
@@ -391,7 +391,7 @@
     </attribute>
     <attribute>
       <id>IPMI_SENSOR_ID</id>
-      <default></default>
+      <default/>
     </attribute>
     <attribute>
       <id>IPMI_SENSOR_NAME_SUFFIX</id>
@@ -399,7 +399,7 @@
     </attribute>
     <attribute>
       <id>IPMI_SENSOR_OFFSETS</id>
-      <default></default>
+      <default/>
     </attribute>
     <attribute>
       <id>IPMI_SENSOR_READING_TYPE</id>
@@ -426,27 +426,14 @@
   <targetPart>
     <id>sys-sys-power9</id>
     <attribute>
-      <id>AFFINITY_PATH</id>
-      <default>affinity:sys-0</default>
-    </attribute>
-    <attribute>
       <id>ALL_MCS_IN_INTERLEAVING_GROUP</id>
-      <default></default>
+      <default/>
     </attribute>
     <attribute>
       <id>AVERAGE_IPL_TIME</id>
     </attribute>
     <attribute>
-      <id>A_EREPAIR_THRESHOLD_FIELD</id>
-    </attribute>
-    <attribute>
-      <id>A_EREPAIR_THRESHOLD_MNFG</id>
-    </attribute>
-    <attribute>
       <id>BMC_FRU_ID</id>
-    </attribute>
-    <attribute>
-      <id>BOOT_FREQ_MHZ</id>
     </attribute>
     <attribute>
       <id>BRAZOS_RX_FIFO_OVERRIDE</id>
@@ -455,18 +442,12 @@
       <id>CDM_POLICIES</id>
     </attribute>
     <attribute>
-      <id>CEC_IPL_TYPE</id>
-    </attribute>
-    <attribute>
       <id>CHECK_SCRIPT</id>
       <default>run_checks.pl</default>
     </attribute>
     <attribute>
       <id>CLASS</id>
       <default>SYS</default>
-    </attribute>
-    <attribute>
-    	<id>DMI_DFE_OVERRIDE</id>
     </attribute>
     <attribute>
       <id>DMI_EREPAIR_THRESHOLD_FIELD</id>
@@ -484,13 +465,7 @@
       <id>EFFECTIVE_EC</id>
     </attribute>
     <attribute>
-      <id>ENABLED_THREADS</id>
-    </attribute>
-    <attribute>
       <id>EXECUTION_PLATFORM</id>
-    </attribute>
-    <attribute>
-      <id>FABRIC_TO_PHYSICAL_NODE_MAP</id>
     </attribute>
     <attribute>
       <id>FIELD_TH_P8EX_L2_COL_REPAIRS</id>
@@ -532,19 +507,10 @@
       <id>FREQ_PROC_REFCLOCK_KHZ</id>
     </attribute>
     <attribute>
-      <id>FREQ_X_MHZ</id>
-    </attribute>
-    <attribute>
     	<id>FREQ_X_HFT</id>
     </attribute>
     <attribute>
       <id>FRU_ID</id>
-    </attribute>
-    <attribute>
-      <id>FUSED_CORE_OPTION</id>
-    </attribute>
-    <attribute>
-      <id>HB_HRMOR_NODAL_BASE</id>
     </attribute>
     <attribute>
       <id>HB_RSV_MEM_SIZE_MB</id>
@@ -553,20 +519,7 @@
       <id>HB_SETTINGS</id>
     </attribute>
     <attribute>
-      <id>HIDDEN_ERRLOGS_ENABLE</id>
-    </attribute>
-    <attribute>
-      <id>HUID</id>
-      <default>0x00010000</default>
-    </attribute>
-    <attribute>
       <id>ISTEP_MODE</id>
-    </attribute>
-    <attribute>
-      <id>ISTEP_PAUSE_CONFIG</id>
-    </attribute>
-    <attribute>
-      <id>ISTEP_PAUSE_ENABLE</id>
     </attribute>
     <attribute>
       <id>IS_SIMULATION</id>
@@ -576,8 +529,8 @@
     	<id>LED_ON_DEFAULT_GPIO_VALUE</id>
     </attribute>
     <attribute>
-    	<id>LED_STRATEGY</id>
-    </attribute>
+    	<id>LED-STRATEGY</id>
+    </attribute>    
     <attribute>
       <id>MAX_CHIPLETS_PER_PROC</id>
     </attribute>
@@ -594,19 +547,7 @@
       <id>MAX_MBA_PORTS_PER_MBA</id>
     </attribute>
     <attribute>
-      <id>MAX_MCS_PER_SYSTEM</id>
-    </attribute>
-    <attribute>
-      <id>MAX_PROC_CHIPS_PER_NODE</id>
-    </attribute>
-    <attribute>
       <id>MEM_MIRROR_PLACEMENT_POLICY</id>
-    </attribute>
-    <attribute>
-      <id>MFG_TRACE_ENABLE</id>
-    </attribute>
-    <attribute>
-      <id>MIN_FREQ_MHZ</id>
     </attribute>
     <attribute>
       <id>MIRROR_BASE_ADDRESS</id>
@@ -638,9 +579,7 @@
     <attribute>
       <id>MNFG_TH_CEN_MBA_RT_SOFT_CE_TH_ALGO</id>
     </attribute>
-    <attribute>
-      <id>MNFG_TH_P8EX_L2_CACHE_CES</id>
-    </attribute>
+
     <attribute>
       <id>MNFG_TH_P8EX_L2_COL_REPAIRS</id>
     </attribute>
@@ -670,12 +609,6 @@
       <default>POWER9</default>
     </attribute>
     <attribute>
-      <id>MRW_CDIMM_MASTER_I2C_TEMP_SENSOR_ENABLE</id>
-    </attribute>
-    <attribute>
-      <id>MRW_CDIMM_SPARE_I2C_TEMP_SENSOR_ENABLE</id>
-    </attribute>
-    <attribute>
       <id>MSS_MRW_DIMM_POWER_CURVE_PERCENT_UPLIFT</id>
     </attribute>
     <attribute>
@@ -694,34 +627,22 @@
       <id>MSS_MRW_MAX_NUMBER_DIMMS_POSSIBLE_PER_VMEM_REGULATOR</id>
     </attribute>
     <attribute>
-      <id>MRW_MBA_CACHELINE_INTERLEAVE_MODE_CONTROL</id>
+    	<id>MEM_MIRRORING_ALLOWED</id>
     </attribute>
     <attribute>
-    	<id>MRW_MEM_MIRRORING_ALLOWED</id>
+    	<id>MEM_MIRRORING_ENABLE_DEFAULT</id>
     </attribute>
     <attribute>
-    	<id>MRW_MEM_MIRRORING_ENABLE_DEFAULT</id>
-    </attribute>
-    <attribute>
-		<id>MRW_MEM_POWER_CONTROL_USAGE</id>
+		<id>MEM_POWER_CONTROL_USAGE</id>
     </attribute>
     <attribute>
       <id>MRW_MEM_THROTTLE_DENOMINATOR</id>
-    </attribute>
-    <attribute>
-      <id>MRW_NEST_CAPABLE_FREQUENCIES_SYS</id>
     </attribute>
     <attribute>
       <id>MSS_MRW_POWER_CONTROL_REQUESTED</id>
     </attribute>
     <attribute>
       <id>MRW_SAFEMODE_MEM_THROTTLE_NUMERATOR_PER_CHIP</id>
-    </attribute>
-    <attribute>
-      <id>MRW_SAFEMODE_MEM_THROTTLE_NUMERATOR_PER_MBA</id>
-    </attribute>
-    <attribute>
-      <id>MRW_STRICT_MBA_PLUG_RULE_CHECKING</id>
     </attribute>
     <attribute>
       <id>MSS_MRW_THERMAL_MEMORY_POWER_LIMIT</id>
@@ -736,19 +657,10 @@
       <id>MSS_MRW_VMEM_REGULATOR_POWER_LIMIT_PER_DIMM_ADJ_ENABLE</id>
     </attribute>
     <attribute>
-    	<id>MSS_CLEANER_ENABLE</id>
-    </attribute>
-    <attribute>
-      <id>MSS_DRAMINIT_RESET_DISABLE</id>
-    </attribute>
-    <attribute>
       <id>MSS_MBA_ADDR_INTERLEAVE_BIT</id>
     </attribute>
     <attribute>
       <id>MSS_MBA_CACHELINE_INTERLEAVE_MODE</id>
-    </attribute>
-    <attribute>
-    	<id>MSS_PREFETCH_ENABLE</id>
     </attribute>
     <attribute>
     	<id>MSS_MRW_VDDR_OFFSET_DISABLE</id>
@@ -766,31 +678,16 @@
     	<id>MSS_VOLT_DDR4_VDDR_INTERCEPT</id>
     </attribute>
     <attribute>
-      <id>MULTI_SCOM_BUFFER_MAX_SIZE</id>
-    </attribute>
-    <attribute>
       <id>ASYNC_NEST_FREQ_MHZ</id>
-    </attribute>
-    <attribute>
-      <id>NOMINAL_FREQ_MHZ</id>
     </attribute>
     <attribute>
       <id>NUMERIC_POD_TYPE_TEST</id>
     </attribute>
     <attribute>
-    	<id>OCC_LOAD_TIMEOUT</id>
+    	<id>OCC-LOAD-TIMEOUT</id>
     </attribute>
     <attribute>
-    	<id>OCC_RESET_TIMEOUT</id>
-    </attribute>
-    <attribute>
-      <id>OPT_MEMMAP_GROUP_POLICY</id>
-    </attribute>
-    <attribute>
-      <id>PAYLOAD_BASE</id>
-    </attribute>
-    <attribute>
-      <id>PAYLOAD_ENTRY</id>
+    	<id>OCC-RESET-TIMEOUT</id>
     </attribute>
     <attribute>
       <id>PAYLOAD_IN_MIRROR_MEM</id>
@@ -802,13 +699,13 @@
       <id>PCI_REFCLOCK_RCVR_TERM</id>
     </attribute>
     <attribute>
-    	<id>PCIE_DEFAULT_HDDW_SLOT_COUNT</id>
+    	<id>PCIE-DEFAULT-HDDW-SLOT-COUNT</id>
     </attribute>
     <attribute>
-    	<id>PCIE_MAX_HDDW_SLOT_COUNT</id>
+    	<id>PCIE-MAXIMUM-HDDW-SLOT-COUNT</id>
     </attribute>
     <attribute>
-    	<id>PCIE_MIN_HDDW_SLOT_COUNT</id>
+    	<id>PCIE-MINIMUM-HDDW-SLOT-COUNT</id>
     </attribute>
     <attribute>
       <id>PHYS_PATH</id>
@@ -816,12 +713,6 @@
     </attribute>
     <attribute>
       <id>PLCK_IPL_ATTR_OVERRIDES_EXIST</id>
-    </attribute>
-    <attribute>
-      <id>PM_EXTERNAL_VRM_STEPDELAY_VALUE</id>
-    </attribute>
-    <attribute>
-      <id>PM_EXTERNAL_VRM_STEPDELAY_RANGE</id>
     </attribute>
     <attribute>
       <id>PM_RESONANT_CLOCK_FULL_CLOCK_SECTOR_BUFFER_FREQUENCY</id>
@@ -842,13 +733,7 @@
       <id>PM_SAFE_FREQUENCY</id>
     </attribute>
     <attribute>
-      <id>SPIPSS_FREQUENCY</id>
-    </attribute>
-    <attribute>
       <id>PM_SPIVID_FREQUENCY</id>
-    </attribute>
-    <attribute>
-      <id>SYSTEM_IVRMS_ENABLED</id>
     </attribute>
     <attribute>
       <id>PM_SYSTEM_IVRM_VPD_MIN_LEVEL</id>
@@ -863,23 +748,17 @@
       <id>PROC_REFCLOCK_RCVR_TERM</id>
     </attribute>
     <attribute>
-      <id>PROC_X_BUS_WIDTH</id>
-    </attribute>
-    <attribute>
     	<id>power-def-filenames</id>
     </attribute>
     <attribute>
     	<id>powr-vrm-xml-filenames</id>
     </attribute>
     <attribute>
-      <id>RECONFIGURE_LOOP</id>
-    </attribute>
-    <attribute>
-      <id>RECONFIG_LOOP_TESTS_ENABLE</id>
-    </attribute>
-    <attribute>
       <id>REDUNDANT_CLOCKS</id>
     </attribute>
+    <attribute>
+      <id>REDUNDANT_MF_CLOCKS</id>
+    </attribute>    
     <attribute>
       <id>REDUNDANT_FSPS</id>
     </attribute>
@@ -890,30 +769,11 @@
       <id>SP_FUNCTIONS</id>
     </attribute>
     <attribute>
-      <id>SYNC_BETWEEN_STEPS</id>
-    </attribute>
-    <attribute>
       <id>SYSTEM_MTM</id>
-    </attribute>
-    <attribute>
-      <id>TEST_MAX_STRING</id>
-    </attribute>
-    <attribute>
-      <id>TEST_MIN_STRING</id>
-      <default>Z</default>
-    </attribute>
-    <attribute>
-      <id>TEST_NO_DEFAULT_STRING</id>
-    </attribute>
-    <attribute>
-      <id>TEST_NULL_STRING</id>
     </attribute>
     <attribute>
       <id>TYPE</id>
       <default>SYS</default>
-    </attribute>
-    <attribute>
-      <id>XSCOM_BASE_ADDRESS</id>
     </attribute>
     <attribute>
       <id>X_EREPAIR_THRESHOLD_FIELD</id>
@@ -956,7 +816,7 @@
     </attribute>
     <attribute>
       <id>IPMI_SENSOR_ID</id>
-      <default></default>
+      <default/>
     </attribute>
     <attribute>
       <id>IPMI_SENSOR_NAME_SUFFIX</id>

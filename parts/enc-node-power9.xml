@@ -11,7 +11,7 @@
     </attribute>
     <attribute>
       <id>IPMI_SENSOR_ID</id>
-      <default></default>
+      <default/>
     </attribute>
     <attribute>
       <id>IPMI_SENSOR_NAME_SUFFIX</id>
@@ -54,25 +54,14 @@
       <default>ENC</default>
     </attribute>
     <attribute>
-      <id>DECONFIG_GARDABLE</id>
-      <default>1</default>
-    </attribute>
-    <attribute>
       <id>FIELD_CORE_OVERRIDE</id>
     </attribute>
     <attribute>
       <id>FRU_ID</id>
     </attribute>
     <attribute>
-      <id>HWAS_STATE_CHANGED_SUBSCRIPTION_MASK</id>
-      <default>0x00000009</default>
-    </attribute>
-    <attribute>
       <id>MODEL</id>
       <default>POWER9</default>
-    </attribute>
-    <attribute>
-      <id>TPM_INFO</id>
     </attribute>
     <attribute>
       <id>TYPE</id>
@@ -102,7 +91,7 @@
     </attribute>
     <attribute>
       <id>IPMI_SENSOR_ID</id>
-      <default></default>
+      <default/>
     </attribute>
     <attribute>
       <id>IPMI_SENSOR_NAME_SUFFIX</id>
@@ -146,7 +135,7 @@
     </attribute>
     <attribute>
       <id>IPMI_SENSOR_ID</id>
-      <default></default>
+      <default/>
     </attribute>
     <attribute>
       <id>IPMI_SENSOR_NAME_SUFFIX</id>
@@ -190,7 +179,7 @@
     </attribute>
     <attribute>
       <id>IPMI_SENSOR_ID</id>
-      <default></default>
+      <default/>
     </attribute>
     <attribute>
       <id>IPMI_SENSOR_NAME_SUFFIX</id>
@@ -234,7 +223,7 @@
     </attribute>
     <attribute>
       <id>IPMI_SENSOR_ID</id>
-      <default></default>
+      <default/>
     </attribute>
     <attribute>
       <id>IPMI_SENSOR_NAME_SUFFIX</id>

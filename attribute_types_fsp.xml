@@ -1,6 +1,3 @@
-
-<!-- attribute defining the required system policy for a fsp based system -->
-
 <attributes>
 
 <attribute>
@@ -13,6 +10,7 @@
     </simpleType>
     <persistency>non-volatile</persistency>
     <readable/>
+    <global/>
 </attribute>
 
 <attribute>
@@ -44,7 +42,7 @@
 	<description>ID used to retrieve information from the Fan Controller Type</description>
     <simpleType>
         <string>
-        	<default>TACHA0</default>
+        	<default></default>
         </string>
     </simpleType>
     <persistency>non-volatile</persistency>
@@ -61,6 +59,7 @@
     </simpleType>
     <persistency>non-volatile</persistency>
     <readable/>
+    <global/>
 </attribute>
 
 <attribute>
@@ -145,6 +144,7 @@
     </simpleType>
     <persistency>non-volatile</persistency>
     <readable/>
+    <global/>
 </attribute>
 
 <attribute>
@@ -295,7 +295,7 @@
 	<id>IM_ID</id>
 	<description>Used to indicate a certain target is valid only for a certain IM ID</description>
     <simpleType>
-        <string></string>
+        <string/>
     </simpleType>
     <persistency>non-volatile</persistency>
     <readable/>
@@ -305,7 +305,7 @@
 	<id>IM_VALUE</id>
 	<description>Used to indicate the IM keyword value</description>
     <simpleType>
-        <string></string>
+        <string/>
     </simpleType>
     <persistency>non-volatile</persistency>
     <readable/>
@@ -315,7 +315,7 @@
 	<id>PART_NUMBER</id>
 	<description>Used to indicate the part number information</description>
     <simpleType>
-        <string></string>
+        <string/>
     </simpleType>
     <persistency>non-volatile</persistency>
     <readable/>
@@ -340,7 +340,7 @@
         <name>powr-vrm-xml-filenames</name>
         <value>3</value>
     </enumerator>
-    <default></default>
+    <default/>
 </enumerationType>
 
 <attribute>
@@ -360,7 +360,7 @@
 	<id>SYS_POLICY_VALUE</id>
 	<description>The value of the system policy</description>
     <simpleType>
-        <string></string>
+        <string/>
     </simpleType>
     <persistency>non-volatile</persistency>
     <readable/>
@@ -466,7 +466,7 @@
     <id>FREQUENCY</id>
     <description>The core frequency - for modules only</description>
     <simpleType>
-        <string></string>
+        <string/>
     </simpleType>
     <persistency>non-volatile</persistency>
     <readable/>
@@ -476,7 +476,7 @@
     <id>MTM_NAME</id>
     <description>System MTM</description>
     <simpleType>
-        <string></string>
+        <string/>
     </simpleType>
     <persistency>non-volatile</persistency>
     <readable/>
@@ -487,7 +487,7 @@
     <description>1 = System has redundant FSPs or 0 = System does not have redundant FSPs</description>
     <group>SYS_POLICIES</group>
     <simpleType>
-        <uint8_t></uint8_t>
+        <uint8_t/>
     </simpleType>
     <persistency>non-volatile</persistency>
     <readable/>
@@ -502,14 +502,14 @@
     <description>The average amount of time it may take for this enclosure to IPL in minutes</description>
     <group>SYS_POLICIES</group>
     <simpleType>
-        <uint8_t></uint8_t>
+        <uint8_t/>
     </simpleType>
     <persistency>non-volatile</persistency>
     <readable/>
 </attribute>
 
 <attribute>
-    <id>LED_STRATEGY</id>
+    <id>LED-STRATEGY</id>
     <description>The LED service strategy</description>
     <group>SYS_POLICIES</group>
     <simpleType>
@@ -527,7 +527,7 @@
 	<group>SYS_POLICIES</group>
 	<simpleType>
 		<string>
-			<default></default>
+			<default/>
 		</string>
 	</simpleType>
 	<persistency>non-volatile</persistency>
@@ -540,7 +540,7 @@
 	<group>SYS_POLICIES</group>
 	<simpleType>
 		<string>
-			<default></default>
+			<default/>
 		</string>
 	</simpleType>
 	<persistency>non-volatile</persistency>
@@ -556,36 +556,36 @@
     </description>
     <group>SYS_POLICIES</group>
     <simpleType>
-        <uint8_t><default></default></uint8_t>
+        <uint8_t><default/></uint8_t>
     </simpleType>
     <persistency>non-volatile</persistency>
     <readable/>
 </attribute>
 
 <attribute>
-    <id>MRW_MEM_MIRRORING_ALLOWED</id>
+    <id>MEM_MIRRORING_ALLOWED</id>
     <description>Is memory mirroring allowed on this platform? 0 - No and 1 - Yes</description>
     <group>SYS_POLICIES</group>
     <simpleType>
-        <uint8_t><default></default></uint8_t>
+        <uint8_t><default/></uint8_t>
     </simpleType>
     <persistency>non-volatile</persistency>
     <readable/>
 </attribute>
 
 <attribute>
-    <id>MRW_MEM_MIRRORING_ENABLE_DEFAULT</id>
+    <id>MEM_MIRRORING_ENABLE_DEFAULT</id>
     <description>By default, is memory mirroring enabled on this platform? 0 - No and 1 - Yes</description>
     <group>SYS_POLICIES</group>
     <simpleType>
-        <uint8_t><default></default></uint8_t>
+        <uint8_t><default/></uint8_t>
     </simpleType>
     <persistency>non-volatile</persistency>
     <readable/>
 </attribute>
 
 <attribute>
-    <id>MRW_MEM_POWER_CONTROL_USAGE</id>
+    <id>MEM_POWER_CONTROL_USAGE</id>
     <description>Determines if any power controls should be used by memory on this platform. This is a system-wide policy setting that is used when configuring the memory. Note that individual DIMMs will also know if they are capable of doing any of this so the eventual answer is combination of the requested value specified here and the capable value from the VPD</description>
     <group>SYS_POLICIES</group>
     <simpleType>
@@ -596,28 +596,28 @@
     <persistency>non-volatile</persistency>
     <readable/>
     <hwpfToHbAttrMap>
-        <id>ATTR_MRW_MEM_POWER_CONTROL_USAGE</id>
+        <id>ATTR_MEM_POWER_CONTROL_USAGE</id>
         <macro>DIRECT</macro>
     </hwpfToHbAttrMap>
 </attribute>
 
 <attribute>
-    <id>OCC_LOAD_TIMEOUT</id>
+    <id>OCC-LOAD-TIMEOUT</id>
     <description>The maximum amount of time it should take for all OCCs in the system to be loaded and started in seconds</description>
     <group>SYS_POLICIES</group>
     <simpleType>
-        <uint8_t></uint8_t>
+        <uint8_t/>
     </simpleType>
     <persistency>non-volatile</persistency>
     <readable/>
 </attribute>
 
 <attribute>
-    <id>OCC_RESET_TIMEOUT</id>
+    <id>OCC-RESET-TIMEOUT</id>
     <description>The maximum amount of time it should take for all OCCs to be reset in seconds</description>
     <group>SYS_POLICIES</group>
     <simpleType>
-        <uint8_t></uint8_t>
+        <uint8_t/>
     </simpleType>
     <persistency>non-volatile</persistency>
     <readable/>
@@ -627,7 +627,7 @@
     <id>FREQ_PB_HFT</id>
     <description>The frequency of a processor's PB chiplet in MHz</description>
     <group>SYS_POLICIES</group>
-    <simpleType><uint32_t></uint32_t></simpleType>
+    <simpleType><uint32_t/></simpleType>
     <persistency>non-volatile</persistency>
     <readable/>
     <writeable/>
@@ -641,7 +641,7 @@
     <id>FREQ_X_HFT</id>
     <description>The frequency of a processor's X bus in MHz</description>
     <group>SYS_POLICIES</group>
-    <simpleType><uint32_t></uint32_t></simpleType>
+    <simpleType><uint32_t/></simpleType>
     <persistency>non-volatile</persistency>
     <readable/>
     <writeable/>
@@ -655,7 +655,7 @@
     <id>FREQ_NEST_HFT</id>
     <description>The frequency of a processor's Nest chiplet in MHz</description>
     <group>SYS_POLICIES</group>
-    <simpleType><uint32_t></uint32_t></simpleType>
+    <simpleType><uint32_t/></simpleType>
     <persistency>non-volatile</persistency>
     <readable/>
     <writeable/>
@@ -666,33 +666,33 @@
 </attribute>
 
 <attribute>
-    <id>PCIE_DEFAULT_HDDW_SLOT_COUNT</id>
+    <id>PCIE-DEFAULT-HDDW-SLOT-COUNT</id>
     <description>The default HDDW slot count</description>
     <group>SYS_POLICIES</group>
     <simpleType>
-        <uint8_t></uint8_t>
+        <uint8_t/>
     </simpleType>
     <persistency>non-volatile</persistency>
     <readable/>
 </attribute>
 
 <attribute>
-    <id>PCIE_MIN_HDDW_SLOT_COUNT</id>
+    <id>PCIE-MINIMUM-HDDW-SLOT-COUNT</id>
     <description>The minimum HDDW slot count</description>
     <group>SYS_POLICIES</group>
     <simpleType>
-        <uint8_t></uint8_t>
+        <uint8_t/>
     </simpleType>
     <persistency>non-volatile</persistency>
     <readable/>
 </attribute>
 
 <attribute>
-    <id>PCIE_MAX_HDDW_SLOT_COUNT</id>
+    <id>PCIE-MAXIMUM-HDDW-SLOT-COUNT</id>
     <description>The maximum HDDW slot count</description>
     <group>SYS_POLICIES</group>
     <simpleType>
-        <uint8_t></uint8_t>
+        <uint8_t/>
     </simpleType>
     <persistency>non-volatile</persistency>
     <readable/>
@@ -706,8 +706,20 @@
                 the device and pin to use.
     </description>
     <simpleType>
-        <uint8_t></uint8_t>
+        <uint8_t/>
     </simpleType>
+    <persistency>non-volatile</persistency>
+    <readable/>
+</attribute>
+
+<attribute>
+    <id>TARGET-FRU-TYPE</id>
+    <description>FRU type used for fan control.  String must match name for fan_control_fru section in power_management_[sysName].def </description>
+    <simpleType>
+    <string>
+         <default>planar</default>
+    </string>  
+    </simpleType>  
     <persistency>non-volatile</persistency>
     <readable/>
 </attribute>
@@ -744,7 +756,36 @@
         </enumeration>
     </simpleType>
     <persistency>volatile-zeroed</persistency>
-    <readable />
+    <readable/>
+    <writeable/>
+    <fspOnly/>
+</attribute>
+
+<enumerationType>
+    <id>REDUNDANT_MF_CLOCKS</id>
+    <description>Defines if a system has a multi-functional reference clock</description>
+    <enumerator>
+        <name>FALSE</name>
+        <value>0</value>
+    </enumerator>
+    <enumerator>
+        <name>TRUE</name>
+        <value>1</value>
+    </enumerator>
+    <default>FALSE</default>
+</enumerationType>
+
+<!-- attribute defining if a system has a multi-functional reference clock -->
+<attribute>
+    <id>REDUNDANT_MF_CLOCKS</id>
+    <description>Defines if a system has a multi-functional reference clock</description>
+    <simpleType>
+        <enumeration>
+            <id>REDUNDANT_MF_CLOCKS</id>
+        </enumeration>
+    </simpleType>
+    <persistency>volatile-zeroed</persistency>
+    <readable/>
     <writeable/>
     <fspOnly/>
 </attribute>

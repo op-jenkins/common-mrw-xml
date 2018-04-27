@@ -13,20 +13,12 @@
 	<child_id>USB2_2PORT.usb-0</child_id>
 	<child_id>USB2_2PORT.usb-1</child_id>
 	<attribute>
-		<id>CHIP_ID</id>
-		<default></default>
-	</attribute>
-	<attribute>
 		<id>CLASS</id>
 		<default>CHIP</default>
 	</attribute>
 	<attribute>
 		<id>MODEL</id>
-		<default></default>
-	</attribute>
-	<attribute>
-		<id>MRU_ID</id>
-		<default>0</default>
+		<default/>
 	</attribute>
 	<attribute>
 		<id>MRW_TYPE</id>
@@ -34,7 +26,7 @@
 	</attribute>
 	<attribute>
 		<id>POSITION</id>
-		<default></default>
+		<default/>
 	</attribute>
 	<attribute>
 		<id>RESOURCE_IS_CRITICAL</id>
@@ -42,12 +34,12 @@
 	</attribute>
 	<attribute>
 		<id>TYPE</id>
-		<default></default>
+		<default/>
 	</attribute>
 </targetPart>
 <targetPart>
 	<id>USB2_2PORT.usb-0</id>
-	<type>unit-usb-master</type>
+	<type>unit-usb-slave</type>
 	<is_root>false</is_root>
 	<instance_name>USB2_2PORT.usb</instance_name>
 	<position>0</position>
@@ -66,11 +58,11 @@
 	</attribute>
 	<attribute>
 		<id>DIRECTION</id>
-		<default>OUT</default>
+		<default>IN</default>
 	</attribute>
 	<attribute>
 		<id>MODEL</id>
-		<default></default>
+		<default/>
 	</attribute>
 	<attribute>
 		<id>MRW_TYPE</id>
@@ -87,7 +79,7 @@
 </targetPart>
 <targetPart>
 	<id>USB2_2PORT.usb-1</id>
-	<type>unit-usb-master</type>
+	<type>unit-usb-slave</type>
 	<is_root>false</is_root>
 	<instance_name>USB2_2PORT.usb</instance_name>
 	<position>1</position>
@@ -106,11 +98,11 @@
 	</attribute>
 	<attribute>
 		<id>DIRECTION</id>
-		<default>OUT</default>
+		<default>IN</default>
 	</attribute>
 	<attribute>
 		<id>MODEL</id>
-		<default></default>
+		<default/>
 	</attribute>
 	<attribute>
 		<id>MRW_TYPE</id>

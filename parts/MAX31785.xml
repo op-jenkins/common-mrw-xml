@@ -23,27 +23,13 @@
 	<child_id>MAX31785.tach3</child_id>
 	<child_id>MAX31785.tach4</child_id>
 	<child_id>MAX31785.tach5</child_id>
-	<child_id>MAX31785.hwmon1</child_id>
-	<child_id>MAX31785.hwmon2</child_id>
-	<child_id>MAX31785.hwmon3</child_id>
-	<child_id>MAX31785.hwmon4</child_id>
-	<child_id>MAX31785.hwmon5</child_id>
-	<child_id>MAX31785.hwmon6</child_id>
-	<attribute>
-		<id>CHIP_ID</id>
-		<default></default>
-	</attribute>
 	<attribute>
 		<id>CLASS</id>
 		<default>CHIP</default>
 	</attribute>
 	<attribute>
 		<id>MODEL</id>
-		<default></default>
-	</attribute>
-	<attribute>
-		<id>MRU_ID</id>
-		<default>0</default>
+		<default/>
 	</attribute>
 	<attribute>
 		<id>MRW_TYPE</id>
@@ -51,7 +37,7 @@
 	</attribute>
 	<attribute>
 		<id>POSITION</id>
-		<default></default>
+		<default/>
 	</attribute>
 	<attribute>
 		<id>RESOURCE_IS_CRITICAL</id>
@@ -59,7 +45,7 @@
 	</attribute>
 	<attribute>
 		<id>RU_TYPE</id>
-		<default></default>
+		<default/>
 	</attribute>
 	<attribute>
 		<id>TYPE</id>
@@ -95,11 +81,11 @@
 	</attribute>
 	<attribute>
 		<id>I2C_ADDRESS</id>
-		<default></default>
+		<default/>
 	</attribute>
 	<attribute>
 		<id>MODEL</id>
-		<default></default>
+		<default/>
 	</attribute>
 	<attribute>
 		<id>MRW_TYPE</id>
@@ -143,15 +129,15 @@
 	</attribute>
 	<attribute>
 		<id>FAN_PWM_ADDRESS</id>
-		<default></default>
+		<default/>
 	</attribute>
 	<attribute>
 		<id>FAN_PWM_BITMASK</id>
-		<default></default>
+		<default/>
 	</attribute>
 	<attribute>
 		<id>MODEL</id>
-		<default></default>
+		<default/>
 	</attribute>
 	<attribute>
 		<id>MRW_TYPE</id>
@@ -159,15 +145,15 @@
 	</attribute>
 	<attribute>
 		<id>PWM_CHANNEL_ID</id>
-		<default></default>
+		<default/>
 	</attribute>
 	<attribute>
 		<id>PWM_DUTY_CYCLE_ADDRESS</id>
-		<default></default>
+		<default/>
 	</attribute>
 	<attribute>
 		<id>PWM_DUTY_CYCLE_BITMASK</id>
-		<default></default>
+		<default/>
 	</attribute>
 	<attribute>
 		<id>RESOURCE_IS_CRITICAL</id>
@@ -203,15 +189,15 @@
 	</attribute>
 	<attribute>
 		<id>FAN_PWM_ADDRESS</id>
-		<default></default>
+		<default/>
 	</attribute>
 	<attribute>
 		<id>FAN_PWM_BITMASK</id>
-		<default></default>
+		<default/>
 	</attribute>
 	<attribute>
 		<id>MODEL</id>
-		<default></default>
+		<default/>
 	</attribute>
 	<attribute>
 		<id>MRW_TYPE</id>
@@ -219,15 +205,15 @@
 	</attribute>
 	<attribute>
 		<id>PWM_CHANNEL_ID</id>
-		<default></default>
+		<default/>
 	</attribute>
 	<attribute>
 		<id>PWM_DUTY_CYCLE_ADDRESS</id>
-		<default></default>
+		<default/>
 	</attribute>
 	<attribute>
 		<id>PWM_DUTY_CYCLE_BITMASK</id>
-		<default></default>
+		<default/>
 	</attribute>
 	<attribute>
 		<id>RESOURCE_IS_CRITICAL</id>
@@ -263,15 +249,15 @@
 	</attribute>
 	<attribute>
 		<id>FAN_PWM_ADDRESS</id>
-		<default></default>
+		<default/>
 	</attribute>
 	<attribute>
 		<id>FAN_PWM_BITMASK</id>
-		<default></default>
+		<default/>
 	</attribute>
 	<attribute>
 		<id>MODEL</id>
-		<default></default>
+		<default/>
 	</attribute>
 	<attribute>
 		<id>MRW_TYPE</id>
@@ -279,15 +265,15 @@
 	</attribute>
 	<attribute>
 		<id>PWM_CHANNEL_ID</id>
-		<default></default>
+		<default/>
 	</attribute>
 	<attribute>
 		<id>PWM_DUTY_CYCLE_ADDRESS</id>
-		<default></default>
+		<default/>
 	</attribute>
 	<attribute>
 		<id>PWM_DUTY_CYCLE_BITMASK</id>
-		<default></default>
+		<default/>
 	</attribute>
 	<attribute>
 		<id>RESOURCE_IS_CRITICAL</id>
@@ -323,15 +309,15 @@
 	</attribute>
 	<attribute>
 		<id>FAN_PWM_ADDRESS</id>
-		<default></default>
+		<default/>
 	</attribute>
 	<attribute>
 		<id>FAN_PWM_BITMASK</id>
-		<default></default>
+		<default/>
 	</attribute>
 	<attribute>
 		<id>MODEL</id>
-		<default></default>
+		<default/>
 	</attribute>
 	<attribute>
 		<id>MRW_TYPE</id>
@@ -339,15 +325,15 @@
 	</attribute>
 	<attribute>
 		<id>PWM_CHANNEL_ID</id>
-		<default></default>
+		<default/>
 	</attribute>
 	<attribute>
 		<id>PWM_DUTY_CYCLE_ADDRESS</id>
-		<default></default>
+		<default/>
 	</attribute>
 	<attribute>
 		<id>PWM_DUTY_CYCLE_BITMASK</id>
-		<default></default>
+		<default/>
 	</attribute>
 	<attribute>
 		<id>RESOURCE_IS_CRITICAL</id>
@@ -383,15 +369,15 @@
 	</attribute>
 	<attribute>
 		<id>FAN_PWM_ADDRESS</id>
-		<default></default>
+		<default/>
 	</attribute>
 	<attribute>
 		<id>FAN_PWM_BITMASK</id>
-		<default></default>
+		<default/>
 	</attribute>
 	<attribute>
 		<id>MODEL</id>
-		<default></default>
+		<default/>
 	</attribute>
 	<attribute>
 		<id>MRW_TYPE</id>
@@ -399,15 +385,15 @@
 	</attribute>
 	<attribute>
 		<id>PWM_CHANNEL_ID</id>
-		<default></default>
+		<default/>
 	</attribute>
 	<attribute>
 		<id>PWM_DUTY_CYCLE_ADDRESS</id>
-		<default></default>
+		<default/>
 	</attribute>
 	<attribute>
 		<id>PWM_DUTY_CYCLE_BITMASK</id>
-		<default></default>
+		<default/>
 	</attribute>
 	<attribute>
 		<id>RESOURCE_IS_CRITICAL</id>
@@ -443,15 +429,15 @@
 	</attribute>
 	<attribute>
 		<id>FAN_PWM_ADDRESS</id>
-		<default></default>
+		<default/>
 	</attribute>
 	<attribute>
 		<id>FAN_PWM_BITMASK</id>
-		<default></default>
+		<default/>
 	</attribute>
 	<attribute>
 		<id>MODEL</id>
-		<default></default>
+		<default/>
 	</attribute>
 	<attribute>
 		<id>MRW_TYPE</id>
@@ -459,15 +445,15 @@
 	</attribute>
 	<attribute>
 		<id>PWM_CHANNEL_ID</id>
-		<default></default>
+		<default/>
 	</attribute>
 	<attribute>
 		<id>PWM_DUTY_CYCLE_ADDRESS</id>
-		<default></default>
+		<default/>
 	</attribute>
 	<attribute>
 		<id>PWM_DUTY_CYCLE_BITMASK</id>
-		<default></default>
+		<default/>
 	</attribute>
 	<attribute>
 		<id>RESOURCE_IS_CRITICAL</id>
@@ -483,6 +469,7 @@
 	<type>unit-tach-generic</type>
 	<is_root>false</is_root>
 	<instance_name>MAX31785.tach0</instance_name>
+	<child_id>MAXA31785.hwmon0</child_id>
 	<position>-1</position>
 	<parent>mrw-unit</parent>
 	<attribute>
@@ -503,63 +490,63 @@
 	</attribute>
 	<attribute>
 		<id>FAN_DOMAIN_REG_ADDRESS</id>
-		<default></default>
+		<default/>
 	</attribute>
 	<attribute>
 		<id>FAN_DOMAIN_REG_BITMASK</id>
-		<default></default>
+		<default/>
 	</attribute>
 	<attribute>
 		<id>FAN_ERROR_MASK_ADDRESS</id>
-		<default></default>
+		<default/>
 	</attribute>
 	<attribute>
 		<id>FAN_ERROR_MASK_BITMASK</id>
-		<default></default>
+		<default/>
 	</attribute>
 	<attribute>
 		<id>FAN_ERROR_REG_ADDRESS</id>
-		<default></default>
+		<default/>
 	</attribute>
 	<attribute>
 		<id>FAN_ERROR_REG_BITMASK</id>
-		<default></default>
+		<default/>
 	</attribute>
 	<attribute>
 		<id>FAN_PARTNER_HS_REG_ADDRESS</id>
-		<default></default>
+		<default/>
 	</attribute>
 	<attribute>
 		<id>FAN_PARTNER_HS_REG_BITMASK</id>
-		<default></default>
+		<default/>
 	</attribute>
 	<attribute>
 		<id>FAN_SPD_REG_HIGH_ADDRESS</id>
-		<default></default>
+		<default/>
 	</attribute>
 	<attribute>
 		<id>FAN_SPD_REG_HIGH_BITMASK</id>
-		<default></default>
+		<default/>
 	</attribute>
 	<attribute>
 		<id>FAN_SPD_REG_LOW_ADDRESS</id>
-		<default></default>
+		<default/>
 	</attribute>
 	<attribute>
 		<id>FAN_SPD_REG_LOW_BITMASK</id>
-		<default></default>
+		<default/>
 	</attribute>
 	<attribute>
 		<id>FAN_TYPE_SEL_ADDRESS</id>
-		<default></default>
+		<default/>
 	</attribute>
 	<attribute>
 		<id>FAN_TYPE_SEL_BITMASK</id>
-		<default></default>
+		<default/>
 	</attribute>
 	<attribute>
 		<id>MODEL</id>
-		<default></default>
+		<default/>
 	</attribute>
 	<attribute>
 		<id>MRW_TYPE</id>
@@ -571,7 +558,7 @@
 	</attribute>
 	<attribute>
 		<id>TACH_CHANNEL_ID</id>
-		<default></default>
+		<default/>
 	</attribute>
 	<attribute>
 		<id>TYPE</id>
@@ -583,6 +570,7 @@
 	<type>unit-tach-generic</type>
 	<is_root>false</is_root>
 	<instance_name>MAX31785.tach1</instance_name>
+	<child_id>MAXA31785.hwmon1</child_id>
 	<position>-1</position>
 	<parent>mrw-unit</parent>
 	<attribute>
@@ -603,63 +591,63 @@
 	</attribute>
 	<attribute>
 		<id>FAN_DOMAIN_REG_ADDRESS</id>
-		<default></default>
+		<default/>
 	</attribute>
 	<attribute>
 		<id>FAN_DOMAIN_REG_BITMASK</id>
-		<default></default>
+		<default/>
 	</attribute>
 	<attribute>
 		<id>FAN_ERROR_MASK_ADDRESS</id>
-		<default></default>
+		<default/>
 	</attribute>
 	<attribute>
 		<id>FAN_ERROR_MASK_BITMASK</id>
-		<default></default>
+		<default/>
 	</attribute>
 	<attribute>
 		<id>FAN_ERROR_REG_ADDRESS</id>
-		<default></default>
+		<default/>
 	</attribute>
 	<attribute>
 		<id>FAN_ERROR_REG_BITMASK</id>
-		<default></default>
+		<default/>
 	</attribute>
 	<attribute>
 		<id>FAN_PARTNER_HS_REG_ADDRESS</id>
-		<default></default>
+		<default/>
 	</attribute>
 	<attribute>
 		<id>FAN_PARTNER_HS_REG_BITMASK</id>
-		<default></default>
+		<default/>
 	</attribute>
 	<attribute>
 		<id>FAN_SPD_REG_HIGH_ADDRESS</id>
-		<default></default>
+		<default/>
 	</attribute>
 	<attribute>
 		<id>FAN_SPD_REG_HIGH_BITMASK</id>
-		<default></default>
+		<default/>
 	</attribute>
 	<attribute>
 		<id>FAN_SPD_REG_LOW_ADDRESS</id>
-		<default></default>
+		<default/>
 	</attribute>
 	<attribute>
 		<id>FAN_SPD_REG_LOW_BITMASK</id>
-		<default></default>
+		<default/>
 	</attribute>
 	<attribute>
 		<id>FAN_TYPE_SEL_ADDRESS</id>
-		<default></default>
+		<default/>
 	</attribute>
 	<attribute>
 		<id>FAN_TYPE_SEL_BITMASK</id>
-		<default></default>
+		<default/>
 	</attribute>
 	<attribute>
 		<id>MODEL</id>
-		<default></default>
+		<default/>
 	</attribute>
 	<attribute>
 		<id>MRW_TYPE</id>
@@ -671,7 +659,7 @@
 	</attribute>
 	<attribute>
 		<id>TACH_CHANNEL_ID</id>
-		<default></default>
+		<default/>
 	</attribute>
 	<attribute>
 		<id>TYPE</id>
@@ -683,6 +671,7 @@
 	<type>unit-tach-generic</type>
 	<is_root>false</is_root>
 	<instance_name>MAX31785.tach2</instance_name>
+	<child_id>MAXA31785.hwmon2</child_id>
 	<position>-1</position>
 	<parent>mrw-unit</parent>
 	<attribute>
@@ -703,63 +692,63 @@
 	</attribute>
 	<attribute>
 		<id>FAN_DOMAIN_REG_ADDRESS</id>
-		<default></default>
+		<default/>
 	</attribute>
 	<attribute>
 		<id>FAN_DOMAIN_REG_BITMASK</id>
-		<default></default>
+		<default/>
 	</attribute>
 	<attribute>
 		<id>FAN_ERROR_MASK_ADDRESS</id>
-		<default></default>
+		<default/>
 	</attribute>
 	<attribute>
 		<id>FAN_ERROR_MASK_BITMASK</id>
-		<default></default>
+		<default/>
 	</attribute>
 	<attribute>
 		<id>FAN_ERROR_REG_ADDRESS</id>
-		<default></default>
+		<default/>
 	</attribute>
 	<attribute>
 		<id>FAN_ERROR_REG_BITMASK</id>
-		<default></default>
+		<default/>
 	</attribute>
 	<attribute>
 		<id>FAN_PARTNER_HS_REG_ADDRESS</id>
-		<default></default>
+		<default/>
 	</attribute>
 	<attribute>
 		<id>FAN_PARTNER_HS_REG_BITMASK</id>
-		<default></default>
+		<default/>
 	</attribute>
 	<attribute>
 		<id>FAN_SPD_REG_HIGH_ADDRESS</id>
-		<default></default>
+		<default/>
 	</attribute>
 	<attribute>
 		<id>FAN_SPD_REG_HIGH_BITMASK</id>
-		<default></default>
+		<default/>
 	</attribute>
 	<attribute>
 		<id>FAN_SPD_REG_LOW_ADDRESS</id>
-		<default></default>
+		<default/>
 	</attribute>
 	<attribute>
 		<id>FAN_SPD_REG_LOW_BITMASK</id>
-		<default></default>
+		<default/>
 	</attribute>
 	<attribute>
 		<id>FAN_TYPE_SEL_ADDRESS</id>
-		<default></default>
+		<default/>
 	</attribute>
 	<attribute>
 		<id>FAN_TYPE_SEL_BITMASK</id>
-		<default></default>
+		<default/>
 	</attribute>
 	<attribute>
 		<id>MODEL</id>
-		<default></default>
+		<default/>
 	</attribute>
 	<attribute>
 		<id>MRW_TYPE</id>
@@ -771,7 +760,7 @@
 	</attribute>
 	<attribute>
 		<id>TACH_CHANNEL_ID</id>
-		<default></default>
+		<default/>
 	</attribute>
 	<attribute>
 		<id>TYPE</id>
@@ -783,6 +772,7 @@
 	<type>unit-tach-generic</type>
 	<is_root>false</is_root>
 	<instance_name>MAX31785.tach3</instance_name>
+	<child_id>MAXA31785.hwmon3</child_id>
 	<position>-1</position>
 	<parent>mrw-unit</parent>
 	<attribute>
@@ -803,63 +793,63 @@
 	</attribute>
 	<attribute>
 		<id>FAN_DOMAIN_REG_ADDRESS</id>
-		<default></default>
+		<default/>
 	</attribute>
 	<attribute>
 		<id>FAN_DOMAIN_REG_BITMASK</id>
-		<default></default>
+		<default/>
 	</attribute>
 	<attribute>
 		<id>FAN_ERROR_MASK_ADDRESS</id>
-		<default></default>
+		<default/>
 	</attribute>
 	<attribute>
 		<id>FAN_ERROR_MASK_BITMASK</id>
-		<default></default>
+		<default/>
 	</attribute>
 	<attribute>
 		<id>FAN_ERROR_REG_ADDRESS</id>
-		<default></default>
+		<default/>
 	</attribute>
 	<attribute>
 		<id>FAN_ERROR_REG_BITMASK</id>
-		<default></default>
+		<default/>
 	</attribute>
 	<attribute>
 		<id>FAN_PARTNER_HS_REG_ADDRESS</id>
-		<default></default>
+		<default/>
 	</attribute>
 	<attribute>
 		<id>FAN_PARTNER_HS_REG_BITMASK</id>
-		<default></default>
+		<default/>
 	</attribute>
 	<attribute>
 		<id>FAN_SPD_REG_HIGH_ADDRESS</id>
-		<default></default>
+		<default/>
 	</attribute>
 	<attribute>
 		<id>FAN_SPD_REG_HIGH_BITMASK</id>
-		<default></default>
+		<default/>
 	</attribute>
 	<attribute>
 		<id>FAN_SPD_REG_LOW_ADDRESS</id>
-		<default></default>
+		<default/>
 	</attribute>
 	<attribute>
 		<id>FAN_SPD_REG_LOW_BITMASK</id>
-		<default></default>
+		<default/>
 	</attribute>
 	<attribute>
 		<id>FAN_TYPE_SEL_ADDRESS</id>
-		<default></default>
+		<default/>
 	</attribute>
 	<attribute>
 		<id>FAN_TYPE_SEL_BITMASK</id>
-		<default></default>
+		<default/>
 	</attribute>
 	<attribute>
 		<id>MODEL</id>
-		<default></default>
+		<default/>
 	</attribute>
 	<attribute>
 		<id>MRW_TYPE</id>
@@ -871,7 +861,7 @@
 	</attribute>
 	<attribute>
 		<id>TACH_CHANNEL_ID</id>
-		<default></default>
+		<default/>
 	</attribute>
 	<attribute>
 		<id>TYPE</id>
@@ -883,6 +873,7 @@
 	<type>unit-tach-generic</type>
 	<is_root>false</is_root>
 	<instance_name>MAX31785.tach4</instance_name>
+	<child_id>MAXA31785.hwmon4</child_id>
 	<position>-1</position>
 	<parent>mrw-unit</parent>
 	<attribute>
@@ -903,63 +894,63 @@
 	</attribute>
 	<attribute>
 		<id>FAN_DOMAIN_REG_ADDRESS</id>
-		<default></default>
+		<default/>
 	</attribute>
 	<attribute>
 		<id>FAN_DOMAIN_REG_BITMASK</id>
-		<default></default>
+		<default/>
 	</attribute>
 	<attribute>
 		<id>FAN_ERROR_MASK_ADDRESS</id>
-		<default></default>
+		<default/>
 	</attribute>
 	<attribute>
 		<id>FAN_ERROR_MASK_BITMASK</id>
-		<default></default>
+		<default/>
 	</attribute>
 	<attribute>
 		<id>FAN_ERROR_REG_ADDRESS</id>
-		<default></default>
+		<default/>
 	</attribute>
 	<attribute>
 		<id>FAN_ERROR_REG_BITMASK</id>
-		<default></default>
+		<default/>
 	</attribute>
 	<attribute>
 		<id>FAN_PARTNER_HS_REG_ADDRESS</id>
-		<default></default>
+		<default/>
 	</attribute>
 	<attribute>
 		<id>FAN_PARTNER_HS_REG_BITMASK</id>
-		<default></default>
+		<default/>
 	</attribute>
 	<attribute>
 		<id>FAN_SPD_REG_HIGH_ADDRESS</id>
-		<default></default>
+		<default/>
 	</attribute>
 	<attribute>
 		<id>FAN_SPD_REG_HIGH_BITMASK</id>
-		<default></default>
+		<default/>
 	</attribute>
 	<attribute>
 		<id>FAN_SPD_REG_LOW_ADDRESS</id>
-		<default></default>
+		<default/>
 	</attribute>
 	<attribute>
 		<id>FAN_SPD_REG_LOW_BITMASK</id>
-		<default></default>
+		<default/>
 	</attribute>
 	<attribute>
 		<id>FAN_TYPE_SEL_ADDRESS</id>
-		<default></default>
+		<default/>
 	</attribute>
 	<attribute>
 		<id>FAN_TYPE_SEL_BITMASK</id>
-		<default></default>
+		<default/>
 	</attribute>
 	<attribute>
 		<id>MODEL</id>
-		<default></default>
+		<default/>
 	</attribute>
 	<attribute>
 		<id>MRW_TYPE</id>
@@ -971,7 +962,7 @@
 	</attribute>
 	<attribute>
 		<id>TACH_CHANNEL_ID</id>
-		<default></default>
+		<default/>
 	</attribute>
 	<attribute>
 		<id>TYPE</id>
@@ -983,6 +974,7 @@
 	<type>unit-tach-generic</type>
 	<is_root>false</is_root>
 	<instance_name>MAX31785.tach5</instance_name>
+	<child_id>MAXA31785.hwmon5</child_id>
 	<position>-1</position>
 	<parent>mrw-unit</parent>
 	<attribute>
@@ -1003,63 +995,63 @@
 	</attribute>
 	<attribute>
 		<id>FAN_DOMAIN_REG_ADDRESS</id>
-		<default></default>
+		<default/>
 	</attribute>
 	<attribute>
 		<id>FAN_DOMAIN_REG_BITMASK</id>
-		<default></default>
+		<default/>
 	</attribute>
 	<attribute>
 		<id>FAN_ERROR_MASK_ADDRESS</id>
-		<default></default>
+		<default/>
 	</attribute>
 	<attribute>
 		<id>FAN_ERROR_MASK_BITMASK</id>
-		<default></default>
+		<default/>
 	</attribute>
 	<attribute>
 		<id>FAN_ERROR_REG_ADDRESS</id>
-		<default></default>
+		<default/>
 	</attribute>
 	<attribute>
 		<id>FAN_ERROR_REG_BITMASK</id>
-		<default></default>
+		<default/>
 	</attribute>
 	<attribute>
 		<id>FAN_PARTNER_HS_REG_ADDRESS</id>
-		<default></default>
+		<default/>
 	</attribute>
 	<attribute>
 		<id>FAN_PARTNER_HS_REG_BITMASK</id>
-		<default></default>
+		<default/>
 	</attribute>
 	<attribute>
 		<id>FAN_SPD_REG_HIGH_ADDRESS</id>
-		<default></default>
+		<default/>
 	</attribute>
 	<attribute>
 		<id>FAN_SPD_REG_HIGH_BITMASK</id>
-		<default></default>
+		<default/>
 	</attribute>
 	<attribute>
 		<id>FAN_SPD_REG_LOW_ADDRESS</id>
-		<default></default>
+		<default/>
 	</attribute>
 	<attribute>
 		<id>FAN_SPD_REG_LOW_BITMASK</id>
-		<default></default>
+		<default/>
 	</attribute>
 	<attribute>
 		<id>FAN_TYPE_SEL_ADDRESS</id>
-		<default></default>
+		<default/>
 	</attribute>
 	<attribute>
 		<id>FAN_TYPE_SEL_BITMASK</id>
-		<default></default>
+		<default/>
 	</attribute>
 	<attribute>
 		<id>MODEL</id>
-		<default></default>
+		<default/>
 	</attribute>
 	<attribute>
 		<id>MRW_TYPE</id>
@@ -1071,11 +1063,80 @@
 	</attribute>
 	<attribute>
 		<id>TACH_CHANNEL_ID</id>
-		<default></default>
+		<default/>
 	</attribute>
 	<attribute>
 		<id>TYPE</id>
 		<default>NA</default>
+	</attribute>
+</targetPart>
+<targetPart>
+	<id>MAX31785.hwmon0</id>
+	<type>unit-hwmon-feature</type>
+	<is_root>false</is_root>
+	<instance_name>MAX31785.hwmon0</instance_name>
+	<position>-1</position>
+	<parent>mrw-unit</parent>
+	<parent_type>chip</parent_type>
+	<attribute>
+		<id>BUS_TYPE</id>
+		<default>NA</default>
+	</attribute>
+	<attribute>
+		<id>CHIPLET_ID</id>
+		<default/>
+	</attribute>
+	<attribute>
+		<id>CHIP_UNIT</id>
+		<default>0</default>
+	</attribute>
+	<attribute>
+		<id>CLASS</id>
+		<default>UNIT</default>
+	</attribute>
+	<attribute>
+		<id>HWAS_STATE_CHANGED_FLAG</id>
+		<default/>
+	</attribute>
+	<attribute>
+		<id>HWMON_FEATURE</id>
+		<default>
+				<field><id>HWMON_NAME</id><value>fan1</value></field>
+				<field><id>DESCRIPTIVE_NAME</id>fan1<value/></field>
+				<field><id>WARN_LOW</id><value/></field>
+				<field><id>WARN_HIGH</id><value/></field>
+				<field><id>CRIT_LOW</id><value/></field>
+				<field><id>CRIT_HIGH</id><value/></field>
+		</default>
+	</attribute>
+	<attribute>
+		<id>MODEL</id>
+		<default/>
+	</attribute>
+	<attribute>
+		<id>MRW_TYPE</id>
+		<default>NA</default>
+	</attribute>
+	<attribute>
+		<id>PHYS_PATH</id>
+		<default/>
+	</attribute>
+	<attribute>
+		<id>PRIMARY_CAPABILITIES</id>
+		<default>
+				<field><id>supportsFsiScom</id><value>1</value></field>
+				<field><id>supportsXscom</id><value>1</value></field>
+				<field><id>supportsInbandScom</id><value>0</value></field>
+				<field><id>reserved</id><value>0</value></field>
+		</default>
+	</attribute>
+	<attribute>
+		<id>RESOURCE_IS_CRITICAL</id>
+		<default>0</default>
+	</attribute>
+	<attribute>
+		<id>TYPE</id>
+		<default/>
 	</attribute>
 </targetPart>
 <targetPart>
@@ -1087,16 +1148,12 @@
 	<parent>mrw-unit</parent>
 	<parent_type>chip</parent_type>
 	<attribute>
-		<id>AFFINITY_PATH</id>
-		<default></default>
-	</attribute>
-	<attribute>
 		<id>BUS_TYPE</id>
 		<default>NA</default>
 	</attribute>
 	<attribute>
 		<id>CHIPLET_ID</id>
-		<default></default>
+		<default/>
 	</attribute>
 	<attribute>
 		<id>CHIP_UNIT</id>
@@ -1107,70 +1164,31 @@
 		<default>UNIT</default>
 	</attribute>
 	<attribute>
-		<id>DECONFIG_GARDABLE</id>
-		<default>0</default>
-	</attribute>
-	<attribute>
-		<id>FAPI_NAME</id>
-		<default></default>
-	</attribute>
-	<attribute>
-		<id>FAPI_POS</id>
-		<default></default>
-	</attribute>
-	<attribute>
-		<id>HUID</id>
-		<default></default>
-	</attribute>
-	<attribute>
-		<id>HWAS_STATE</id>
-		<default>
-				<field><id>deconfiguredByEid</id><value></value></field>
-				<field><id>poweredOn</id><value></value></field>
-				<field><id>present</id><value></value></field>
-				<field><id>functional</id><value></value></field>
-				<field><id>dumpfunctional</id><value></value></field>
-				<field><id>specdeconfig</id><value></value></field>
-		</default>
-	</attribute>
-	<attribute>
 		<id>HWAS_STATE_CHANGED_FLAG</id>
-		<default></default>
-	</attribute>
-	<attribute>
-		<id>HWAS_STATE_CHANGED_SUBSCRIPTION_MASK</id>
-		<default></default>
+		<default/>
 	</attribute>
 	<attribute>
 		<id>HWMON_FEATURE</id>
 		<default>
-				<field><id>HWMON_NAME</id><value>fan1</value></field>
-				<field><id>DESCRIPTIVE_NAME</id>fan1<value></value></field>
-				<field><id>WARN_LOW</id><value></value></field>
-				<field><id>WARN_HIGH</id><value></value></field>
-				<field><id>CRIT_LOW</id><value></value></field>
-				<field><id>CRIT_HIGH</id><value></value></field>
+				<field><id>HWMON_NAME</id><value>fan2</value></field>
+				<field><id>DESCRIPTIVE_NAME</id>fan2<value/></field>
+				<field><id>WARN_LOW</id><value/></field>
+				<field><id>WARN_HIGH</id><value/></field>
+				<field><id>CRIT_LOW</id><value/></field>
+				<field><id>CRIT_HIGH</id><value/></field>
 		</default>
 	</attribute>
 	<attribute>
 		<id>MODEL</id>
-		<default></default>
-	</attribute>
-	<attribute>
-		<id>MRU_ID</id>
-		<default></default>
+		<default/>
 	</attribute>
 	<attribute>
 		<id>MRW_TYPE</id>
 		<default>NA</default>
 	</attribute>
 	<attribute>
-		<id>ORDINAL_ID</id>
-		<default></default>
-	</attribute>
-	<attribute>
 		<id>PHYS_PATH</id>
-		<default></default>
+		<default/>
 	</attribute>
 	<attribute>
 		<id>PRIMARY_CAPABILITIES</id>
@@ -1182,16 +1200,12 @@
 		</default>
 	</attribute>
 	<attribute>
-		<id>REL_POS</id>
-		<default></default>
-	</attribute>
-	<attribute>
 		<id>RESOURCE_IS_CRITICAL</id>
 		<default>0</default>
 	</attribute>
 	<attribute>
 		<id>TYPE</id>
-		<default></default>
+		<default/>
 	</attribute>
 </targetPart>
 <targetPart>
@@ -1203,16 +1217,12 @@
 	<parent>mrw-unit</parent>
 	<parent_type>chip</parent_type>
 	<attribute>
-		<id>AFFINITY_PATH</id>
-		<default></default>
-	</attribute>
-	<attribute>
 		<id>BUS_TYPE</id>
 		<default>NA</default>
 	</attribute>
 	<attribute>
 		<id>CHIPLET_ID</id>
-		<default></default>
+		<default/>
 	</attribute>
 	<attribute>
 		<id>CHIP_UNIT</id>
@@ -1223,70 +1233,31 @@
 		<default>UNIT</default>
 	</attribute>
 	<attribute>
-		<id>DECONFIG_GARDABLE</id>
-		<default>0</default>
-	</attribute>
-	<attribute>
-		<id>FAPI_NAME</id>
-		<default></default>
-	</attribute>
-	<attribute>
-		<id>FAPI_POS</id>
-		<default></default>
-	</attribute>
-	<attribute>
-		<id>HUID</id>
-		<default></default>
-	</attribute>
-	<attribute>
-		<id>HWAS_STATE</id>
-		<default>
-				<field><id>deconfiguredByEid</id><value></value></field>
-				<field><id>poweredOn</id><value></value></field>
-				<field><id>present</id><value></value></field>
-				<field><id>functional</id><value></value></field>
-				<field><id>dumpfunctional</id><value></value></field>
-				<field><id>specdeconfig</id><value></value></field>
-		</default>
-	</attribute>
-	<attribute>
 		<id>HWAS_STATE_CHANGED_FLAG</id>
-		<default></default>
-	</attribute>
-	<attribute>
-		<id>HWAS_STATE_CHANGED_SUBSCRIPTION_MASK</id>
-		<default></default>
+		<default/>
 	</attribute>
 	<attribute>
 		<id>HWMON_FEATURE</id>
 		<default>
-				<field><id>HWMON_NAME</id><value>fan2</value></field>
-				<field><id>DESCRIPTIVE_NAME</id>fan2<value></value></field>
-				<field><id>WARN_LOW</id><value></value></field>
-				<field><id>WARN_HIGH</id><value></value></field>
-				<field><id>CRIT_LOW</id><value></value></field>
-				<field><id>CRIT_HIGH</id><value></value></field>
+				<field><id>HWMON_NAME</id><value>fan3</value></field>
+				<field><id>DESCRIPTIVE_NAME</id>fan3<value/></field>
+				<field><id>WARN_LOW</id><value/></field>
+				<field><id>WARN_HIGH</id><value/></field>
+				<field><id>CRIT_LOW</id><value/></field>
+				<field><id>CRIT_HIGH</id><value/></field>
 		</default>
 	</attribute>
 	<attribute>
 		<id>MODEL</id>
-		<default></default>
-	</attribute>
-	<attribute>
-		<id>MRU_ID</id>
-		<default></default>
+		<default/>
 	</attribute>
 	<attribute>
 		<id>MRW_TYPE</id>
 		<default>NA</default>
 	</attribute>
 	<attribute>
-		<id>ORDINAL_ID</id>
-		<default></default>
-	</attribute>
-	<attribute>
 		<id>PHYS_PATH</id>
-		<default></default>
+		<default/>
 	</attribute>
 	<attribute>
 		<id>PRIMARY_CAPABILITIES</id>
@@ -1298,16 +1269,12 @@
 		</default>
 	</attribute>
 	<attribute>
-		<id>REL_POS</id>
-		<default></default>
-	</attribute>
-	<attribute>
 		<id>RESOURCE_IS_CRITICAL</id>
 		<default>0</default>
 	</attribute>
 	<attribute>
 		<id>TYPE</id>
-		<default></default>
+		<default/>
 	</attribute>
 </targetPart>
 <targetPart>
@@ -1319,16 +1286,12 @@
 	<parent>mrw-unit</parent>
 	<parent_type>chip</parent_type>
 	<attribute>
-		<id>AFFINITY_PATH</id>
-		<default></default>
-	</attribute>
-	<attribute>
 		<id>BUS_TYPE</id>
 		<default>NA</default>
 	</attribute>
 	<attribute>
 		<id>CHIPLET_ID</id>
-		<default></default>
+		<default/>
 	</attribute>
 	<attribute>
 		<id>CHIP_UNIT</id>
@@ -1339,70 +1302,31 @@
 		<default>UNIT</default>
 	</attribute>
 	<attribute>
-		<id>DECONFIG_GARDABLE</id>
-		<default>0</default>
-	</attribute>
-	<attribute>
-		<id>FAPI_NAME</id>
-		<default></default>
-	</attribute>
-	<attribute>
-		<id>FAPI_POS</id>
-		<default></default>
-	</attribute>
-	<attribute>
-		<id>HUID</id>
-		<default></default>
-	</attribute>
-	<attribute>
-		<id>HWAS_STATE</id>
-		<default>
-				<field><id>deconfiguredByEid</id><value></value></field>
-				<field><id>poweredOn</id><value></value></field>
-				<field><id>present</id><value></value></field>
-				<field><id>functional</id><value></value></field>
-				<field><id>dumpfunctional</id><value></value></field>
-				<field><id>specdeconfig</id><value></value></field>
-		</default>
-	</attribute>
-	<attribute>
 		<id>HWAS_STATE_CHANGED_FLAG</id>
-		<default></default>
-	</attribute>
-	<attribute>
-		<id>HWAS_STATE_CHANGED_SUBSCRIPTION_MASK</id>
-		<default></default>
+		<default/>
 	</attribute>
 	<attribute>
 		<id>HWMON_FEATURE</id>
 		<default>
-				<field><id>HWMON_NAME</id><value>fan3</value></field>
-				<field><id>DESCRIPTIVE_NAME</id>fan3<value></value></field>
-				<field><id>WARN_LOW</id><value></value></field>
-				<field><id>WARN_HIGH</id><value></value></field>
-				<field><id>CRIT_LOW</id><value></value></field>
-				<field><id>CRIT_HIGH</id><value></value></field>
+				<field><id>HWMON_NAME</id><value>fan4</value></field>
+				<field><id>DESCRIPTIVE_NAME</id>fan4<value/></field>
+				<field><id>WARN_LOW</id><value/></field>
+				<field><id>WARN_HIGH</id><value/></field>
+				<field><id>CRIT_LOW</id><value/></field>
+				<field><id>CRIT_HIGH</id><value/></field>
 		</default>
 	</attribute>
 	<attribute>
 		<id>MODEL</id>
-		<default></default>
-	</attribute>
-	<attribute>
-		<id>MRU_ID</id>
-		<default></default>
+		<default/>
 	</attribute>
 	<attribute>
 		<id>MRW_TYPE</id>
 		<default>NA</default>
 	</attribute>
 	<attribute>
-		<id>ORDINAL_ID</id>
-		<default></default>
-	</attribute>
-	<attribute>
 		<id>PHYS_PATH</id>
-		<default></default>
+		<default/>
 	</attribute>
 	<attribute>
 		<id>PRIMARY_CAPABILITIES</id>
@@ -1414,16 +1338,12 @@
 		</default>
 	</attribute>
 	<attribute>
-		<id>REL_POS</id>
-		<default></default>
-	</attribute>
-	<attribute>
 		<id>RESOURCE_IS_CRITICAL</id>
 		<default>0</default>
 	</attribute>
 	<attribute>
 		<id>TYPE</id>
-		<default></default>
+		<default/>
 	</attribute>
 </targetPart>
 <targetPart>
@@ -1435,16 +1355,12 @@
 	<parent>mrw-unit</parent>
 	<parent_type>chip</parent_type>
 	<attribute>
-		<id>AFFINITY_PATH</id>
-		<default></default>
-	</attribute>
-	<attribute>
 		<id>BUS_TYPE</id>
 		<default>NA</default>
 	</attribute>
 	<attribute>
 		<id>CHIPLET_ID</id>
-		<default></default>
+		<default/>
 	</attribute>
 	<attribute>
 		<id>CHIP_UNIT</id>
@@ -1455,70 +1371,31 @@
 		<default>UNIT</default>
 	</attribute>
 	<attribute>
-		<id>DECONFIG_GARDABLE</id>
-		<default>0</default>
-	</attribute>
-	<attribute>
-		<id>FAPI_NAME</id>
-		<default></default>
-	</attribute>
-	<attribute>
-		<id>FAPI_POS</id>
-		<default></default>
-	</attribute>
-	<attribute>
-		<id>HUID</id>
-		<default></default>
-	</attribute>
-	<attribute>
-		<id>HWAS_STATE</id>
-		<default>
-				<field><id>deconfiguredByEid</id><value></value></field>
-				<field><id>poweredOn</id><value></value></field>
-				<field><id>present</id><value></value></field>
-				<field><id>functional</id><value></value></field>
-				<field><id>dumpfunctional</id><value></value></field>
-				<field><id>specdeconfig</id><value></value></field>
-		</default>
-	</attribute>
-	<attribute>
 		<id>HWAS_STATE_CHANGED_FLAG</id>
-		<default></default>
-	</attribute>
-	<attribute>
-		<id>HWAS_STATE_CHANGED_SUBSCRIPTION_MASK</id>
-		<default></default>
+		<default/>
 	</attribute>
 	<attribute>
 		<id>HWMON_FEATURE</id>
 		<default>
-				<field><id>HWMON_NAME</id><value>fan4</value></field>
-				<field><id>DESCRIPTIVE_NAME</id>fan4<value></value></field>
-				<field><id>WARN_LOW</id><value></value></field>
-				<field><id>WARN_HIGH</id><value></value></field>
-				<field><id>CRIT_LOW</id><value></value></field>
-				<field><id>CRIT_HIGH</id><value></value></field>
+				<field><id>HWMON_NAME</id><value>fan5</value></field>
+				<field><id>DESCRIPTIVE_NAME</id>fan5<value/></field>
+				<field><id>WARN_LOW</id><value/></field>
+				<field><id>WARN_HIGH</id><value/></field>
+				<field><id>CRIT_LOW</id><value/></field>
+				<field><id>CRIT_HIGH</id><value/></field>
 		</default>
 	</attribute>
 	<attribute>
 		<id>MODEL</id>
-		<default></default>
-	</attribute>
-	<attribute>
-		<id>MRU_ID</id>
-		<default></default>
+		<default/>
 	</attribute>
 	<attribute>
 		<id>MRW_TYPE</id>
 		<default>NA</default>
 	</attribute>
 	<attribute>
-		<id>ORDINAL_ID</id>
-		<default></default>
-	</attribute>
-	<attribute>
 		<id>PHYS_PATH</id>
-		<default></default>
+		<default/>
 	</attribute>
 	<attribute>
 		<id>PRIMARY_CAPABILITIES</id>
@@ -1530,16 +1407,12 @@
 		</default>
 	</attribute>
 	<attribute>
-		<id>REL_POS</id>
-		<default></default>
-	</attribute>
-	<attribute>
 		<id>RESOURCE_IS_CRITICAL</id>
 		<default>0</default>
 	</attribute>
 	<attribute>
 		<id>TYPE</id>
-		<default></default>
+		<default/>
 	</attribute>
 </targetPart>
 <targetPart>
@@ -1551,16 +1424,12 @@
 	<parent>mrw-unit</parent>
 	<parent_type>chip</parent_type>
 	<attribute>
-		<id>AFFINITY_PATH</id>
-		<default></default>
-	</attribute>
-	<attribute>
 		<id>BUS_TYPE</id>
 		<default>NA</default>
 	</attribute>
 	<attribute>
 		<id>CHIPLET_ID</id>
-		<default></default>
+		<default/>
 	</attribute>
 	<attribute>
 		<id>CHIP_UNIT</id>
@@ -1571,186 +1440,31 @@
 		<default>UNIT</default>
 	</attribute>
 	<attribute>
-		<id>DECONFIG_GARDABLE</id>
-		<default>0</default>
-	</attribute>
-	<attribute>
-		<id>FAPI_NAME</id>
-		<default></default>
-	</attribute>
-	<attribute>
-		<id>FAPI_POS</id>
-		<default></default>
-	</attribute>
-	<attribute>
-		<id>HUID</id>
-		<default></default>
-	</attribute>
-	<attribute>
-		<id>HWAS_STATE</id>
-		<default>
-				<field><id>deconfiguredByEid</id><value></value></field>
-				<field><id>poweredOn</id><value></value></field>
-				<field><id>present</id><value></value></field>
-				<field><id>functional</id><value></value></field>
-				<field><id>dumpfunctional</id><value></value></field>
-				<field><id>specdeconfig</id><value></value></field>
-		</default>
-	</attribute>
-	<attribute>
 		<id>HWAS_STATE_CHANGED_FLAG</id>
-		<default></default>
-	</attribute>
-	<attribute>
-		<id>HWAS_STATE_CHANGED_SUBSCRIPTION_MASK</id>
-		<default></default>
-	</attribute>
-	<attribute>
-		<id>HWMON_FEATURE</id>
-		<default>
-				<field><id>HWMON_NAME</id><value>fan5</value></field>
-				<field><id>DESCRIPTIVE_NAME</id>fan5<value></value></field>
-				<field><id>WARN_LOW</id><value></value></field>
-				<field><id>WARN_HIGH</id><value></value></field>
-				<field><id>CRIT_LOW</id><value></value></field>
-				<field><id>CRIT_HIGH</id><value></value></field>
-		</default>
-	</attribute>
-	<attribute>
-		<id>MODEL</id>
-		<default></default>
-	</attribute>
-	<attribute>
-		<id>MRU_ID</id>
-		<default></default>
-	</attribute>
-	<attribute>
-		<id>MRW_TYPE</id>
-		<default>NA</default>
-	</attribute>
-	<attribute>
-		<id>ORDINAL_ID</id>
-		<default></default>
-	</attribute>
-	<attribute>
-		<id>PHYS_PATH</id>
-		<default></default>
-	</attribute>
-	<attribute>
-		<id>PRIMARY_CAPABILITIES</id>
-		<default>
-				<field><id>supportsFsiScom</id><value>1</value></field>
-				<field><id>supportsXscom</id><value>1</value></field>
-				<field><id>supportsInbandScom</id><value>0</value></field>
-				<field><id>reserved</id><value>0</value></field>
-		</default>
-	</attribute>
-	<attribute>
-		<id>REL_POS</id>
-		<default></default>
-	</attribute>
-	<attribute>
-		<id>RESOURCE_IS_CRITICAL</id>
-		<default>0</default>
-	</attribute>
-	<attribute>
-		<id>TYPE</id>
-		<default></default>
-	</attribute>
-</targetPart>
-<targetPart>
-	<id>MAX31785.hwmon6</id>
-	<type>unit-hwmon-feature</type>
-	<is_root>false</is_root>
-	<instance_name>MAX31785.hwmon6</instance_name>
-	<position>-1</position>
-	<parent>mrw-unit</parent>
-	<parent_type>chip</parent_type>
-	<attribute>
-		<id>AFFINITY_PATH</id>
-		<default></default>
-	</attribute>
-	<attribute>
-		<id>BUS_TYPE</id>
-		<default>NA</default>
-	</attribute>
-	<attribute>
-		<id>CHIPLET_ID</id>
-		<default></default>
-	</attribute>
-	<attribute>
-		<id>CHIP_UNIT</id>
-		<default>0</default>
-	</attribute>
-	<attribute>
-		<id>CLASS</id>
-		<default>UNIT</default>
-	</attribute>
-	<attribute>
-		<id>DECONFIG_GARDABLE</id>
-		<default>0</default>
-	</attribute>
-	<attribute>
-		<id>FAPI_NAME</id>
-		<default></default>
-	</attribute>
-	<attribute>
-		<id>FAPI_POS</id>
-		<default></default>
-	</attribute>
-	<attribute>
-		<id>HUID</id>
-		<default></default>
-	</attribute>
-	<attribute>
-		<id>HWAS_STATE</id>
-		<default>
-				<field><id>deconfiguredByEid</id><value></value></field>
-				<field><id>poweredOn</id><value></value></field>
-				<field><id>present</id><value></value></field>
-				<field><id>functional</id><value></value></field>
-				<field><id>dumpfunctional</id><value></value></field>
-				<field><id>specdeconfig</id><value></value></field>
-		</default>
-	</attribute>
-	<attribute>
-		<id>HWAS_STATE_CHANGED_FLAG</id>
-		<default></default>
-	</attribute>
-	<attribute>
-		<id>HWAS_STATE_CHANGED_SUBSCRIPTION_MASK</id>
-		<default></default>
+		<default/>
 	</attribute>
 	<attribute>
 		<id>HWMON_FEATURE</id>
 		<default>
 				<field><id>HWMON_NAME</id><value>fan6</value></field>
-				<field><id>DESCRIPTIVE_NAME</id>fan6<value></value></field>
-				<field><id>WARN_LOW</id><value></value></field>
-				<field><id>WARN_HIGH</id><value></value></field>
-				<field><id>CRIT_LOW</id><value></value></field>
-				<field><id>CRIT_HIGH</id><value></value></field>
+				<field><id>DESCRIPTIVE_NAME</id>fan6<value/></field>
+				<field><id>WARN_LOW</id><value/></field>
+				<field><id>WARN_HIGH</id><value/></field>
+				<field><id>CRIT_LOW</id><value/></field>
+				<field><id>CRIT_HIGH</id><value/></field>
 		</default>
 	</attribute>
 	<attribute>
 		<id>MODEL</id>
-		<default></default>
-	</attribute>
-	<attribute>
-		<id>MRU_ID</id>
-		<default></default>
+		<default/>
 	</attribute>
 	<attribute>
 		<id>MRW_TYPE</id>
 		<default>NA</default>
 	</attribute>
 	<attribute>
-		<id>ORDINAL_ID</id>
-		<default></default>
-	</attribute>
-	<attribute>
 		<id>PHYS_PATH</id>
-		<default></default>
+		<default/>
 	</attribute>
 	<attribute>
 		<id>PRIMARY_CAPABILITIES</id>
@@ -1762,16 +1476,12 @@
 		</default>
 	</attribute>
 	<attribute>
-		<id>REL_POS</id>
-		<default></default>
-	</attribute>
-	<attribute>
 		<id>RESOURCE_IS_CRITICAL</id>
 		<default>0</default>
 	</attribute>
 	<attribute>
 		<id>TYPE</id>
-		<default></default>
+		<default/>
 	</attribute>
 </targetPart>
 </targetInstances>

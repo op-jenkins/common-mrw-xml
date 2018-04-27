@@ -22,11 +22,7 @@
 	<child_id>IDT09FGS9093.OEB</child_id>
 	<attribute>
 		<id>CCIN</id>
-		<default></default>
-	</attribute>
-	<attribute>
-		<id>CHIP_ID</id>
-		<default></default>
+		<default/>
 	</attribute>
 	<attribute>
 		<id>CLASS</id>
@@ -34,19 +30,15 @@
 	</attribute>
 	<attribute>
 		<id>LOCATION_CODE</id>
-		<default></default>
+		<default/>
 	</attribute>
 	<attribute>
 		<id>LOCATION_CODE_TYPE</id>
-		<default></default>
+		<default/>
 	</attribute>
 	<attribute>
 		<id>MODEL</id>
-		<default></default>
-	</attribute>
-	<attribute>
-		<id>MRU_ID</id>
-		<default>0</default>
+		<default/>
 	</attribute>
 	<attribute>
 		<id>MRW_TYPE</id>
@@ -54,7 +46,7 @@
 	</attribute>
 	<attribute>
 		<id>POSITION</id>
-		<default></default>
+		<default/>
 	</attribute>
 	<attribute>
 		<id>RESOURCE_IS_CRITICAL</id>
@@ -62,11 +54,11 @@
 	</attribute>
 	<attribute>
 		<id>RU_TYPE</id>
-		<default></default>
+		<default/>
 	</attribute>
 	<attribute>
 		<id>TYPE</id>
-		<default></default>
+		<default/>
 	</attribute>
 </targetPart>
 <targetPart>
@@ -94,7 +86,7 @@
 	</attribute>
 	<attribute>
 		<id>I2C_ADDRESS</id>
-		<default></default>
+		<default/>
 	</attribute>
 	<attribute>
 		<id>MRW_TYPE</id>
@@ -139,7 +131,7 @@
 	<attribute>
 		<id>PIN_NAME</id>
 		<default>
-				<field><id>Value</id><value></value></field>
+				<field><id>Value</id><value/></field>
 		</default>
 	</attribute>
 	<attribute>
@@ -177,7 +169,7 @@
 	<attribute>
 		<id>PIN_NAME</id>
 		<default>
-				<field><id>Value</id><value></value></field>
+				<field><id>Value</id><value/></field>
 		</default>
 	</attribute>
 	<attribute>
@@ -215,7 +207,7 @@
 	<attribute>
 		<id>PIN_NAME</id>
 		<default>
-				<field><id>Value</id><value></value></field>
+				<field><id>Value</id><value/></field>
 		</default>
 	</attribute>
 	<attribute>
@@ -253,7 +245,7 @@
 	<attribute>
 		<id>PIN_NAME</id>
 		<default>
-				<field><id>Value</id><value></value></field>
+				<field><id>Value</id><value/></field>
 		</default>
 	</attribute>
 	<attribute>
@@ -291,7 +283,7 @@
 	<attribute>
 		<id>PIN_NAME</id>
 		<default>
-				<field><id>Value</id><value></value></field>
+				<field><id>Value</id><value/></field>
 		</default>
 	</attribute>
 	<attribute>
@@ -329,7 +321,7 @@
 	<attribute>
 		<id>PIN_NAME</id>
 		<default>
-				<field><id>Value</id><value></value></field>
+				<field><id>Value</id><value/></field>
 		</default>
 	</attribute>
 	<attribute>
@@ -403,7 +395,7 @@
 	<attribute>
 		<id>ENGINE</id>
 		<default>
-				<field><id>Value</id><value></value></field>
+				<field><id>Value</id><value/></field>
 		</default>
 	</attribute>
 	<attribute>
@@ -417,12 +409,12 @@
 	<attribute>
 		<id>PIN_NAME</id>
 		<default>
-				<field><id>Value</id><value></value></field>
+				<field><id>Value</id><value/></field>
 		</default>
 	</attribute>
 	<attribute>
 		<id>PIN_NUM</id>
-		<default></default>
+		<default/>
 	</attribute>
 	<attribute>
 		<id>POR_VALUE</id>
@@ -430,7 +422,7 @@
 	</attribute>
 	<attribute>
 		<id>SCHEMATIC_INTERFACE</id>
-		<default></default>
+		<default/>
 	</attribute>
 	<attribute>
 		<id>TYPE</id>
@@ -467,7 +459,7 @@
 	<attribute>
 		<id>ENGINE</id>
 		<default>
-				<field><id>Value</id><value></value></field>
+				<field><id>Value</id><value/></field>
 		</default>
 	</attribute>
 	<attribute>
@@ -481,12 +473,12 @@
 	<attribute>
 		<id>PIN_NAME</id>
 		<default>
-				<field><id>Value</id><value></value></field>
+				<field><id>Value</id><value/></field>
 		</default>
 	</attribute>
 	<attribute>
 		<id>PIN_NUM</id>
-		<default></default>
+		<default/>
 	</attribute>
 	<attribute>
 		<id>POR_VALUE</id>
@@ -494,7 +486,7 @@
 	</attribute>
 	<attribute>
 		<id>SCHEMATIC_INTERFACE</id>
-		<default></default>
+		<default/>
 	</attribute>
 	<attribute>
 		<id>TYPE</id>
